@@ -27,9 +27,12 @@ function setGame() {
       tile.id = r.toString() + "-" + c.toString();
       //HTML, creates class="tile" in new div.
       tile.classList.add("tile");
+      tile.addEventListener("click", setPiece)
       //HTML, appends the above code to the board ID.
       document.getElementById("board").append(tile);
     }
     board.push(row);
   }
 }
+
+function set
