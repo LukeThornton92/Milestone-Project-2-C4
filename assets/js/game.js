@@ -27,6 +27,7 @@ function setGame() {
       tile.id = r.toString() + "-" + c.toString();
       //HTML, creates class="tile" in new div.
       tile.classList.add("tile");
+      //When a click happens, returns function "setPiece"
       tile.addEventListener("click", setPiece)
       //HTML, appends the above code to the board ID.
       document.getElementById("board").append(tile);
@@ -35,4 +36,10 @@ function setGame() {
   }
 }
 
-function set
+function setPiece () {
+    if (gameOver) {
+        return;
+    })
+
+    let coords = this.id.split("-");
+}
