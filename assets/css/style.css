@@ -2,3 +2,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+#board {
+  height: 540px;
+  width: 630px;
+
+  background-color: blue;
+  border: 1-px solid navy;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
