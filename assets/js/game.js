@@ -28,7 +28,7 @@ function setGame() {
       //HTML, creates class="tile" in new div.
       tile.classList.add("tile");
       //When a click happens, returns function "setPiece"
-      tile.addEventListener("click", setPiece)
+      tile.addEventListener("click", setPiece);
       //HTML, appends the above code to the board ID.
       document.getElementById("board").append(tile);
     }
@@ -36,10 +36,20 @@ function setGame() {
   }
 }
 
-function setPiece () {
-    if (gameOver) {
-        return;
-    })
+function setPiece() {
+  if (gameOver) {
+    return;
+  }
+  //below, makes the ID = "0-0" readable as an array = ["0","0"]
+  let coords = this.id.split("-");
+  let r = parseInt(coords[0]);
+  let c = parseInt(coords[1]);
 
-    let coords = this.id.split("-");
+  board[r][c] = currPlayer;
+  let tile = this;
+  if (currPlayer == playerRed) {
+    tile.classList.add("red-piece");
+  } else {
+    tile.classList.add("yellow-piece");
+  }
 }
