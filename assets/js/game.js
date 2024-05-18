@@ -42,6 +42,7 @@ function setPiece() {
   }
   //below, makes the ID = "0-0" readable as an array = ["0","0"]
   let coords = this.id.split("-");
+  //strings to numbers
   let r = parseInt(coords[0]);
   let c = parseInt(coords[1]);
 
