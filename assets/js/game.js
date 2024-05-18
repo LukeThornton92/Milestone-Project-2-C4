@@ -87,3 +87,12 @@ function checkWinner() {
     }
   }
 }
+
+function setwinner(r, c) {
+  let winner = document.getElementById("winner");
+  if (board[r][c] == playerRed) {
+    winner.innerText = "Red Wins!";
+  } else {
+    winner.innerText = "Yellow Wins!";
+  }
+}
