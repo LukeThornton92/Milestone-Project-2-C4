@@ -54,7 +54,7 @@ function setPiece() {
   }
 
   board[r][c] = currPlayer;
-  let tile = this;
+  let tile = document.getElementById(r.toString() + "-" + c.toString());
   if (currPlayer == playerRed) {
     tile.classList.add("red-piece");
     currPlayer = playerYellow;
@@ -62,4 +62,7 @@ function setPiece() {
     tile.classList.add("yellow-piece");
     currPlayer = playerRed;
   }
+
+  r -= 1;
+  currColumns[c] = r;
 }
