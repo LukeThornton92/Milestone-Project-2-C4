@@ -16,7 +16,7 @@ window.onload = function () {
 
 function setGame() {
   board = [];
-  currColumns = [5, 5, 5, 5, 5, 5, 5];
+  currColumns = [5, 5, 5, 5, 5, 5, 5]; //setting column height as 5 (the bottom)
 
   for (let r = 0; r < rows; r++) {
     let row = [];
@@ -48,6 +48,7 @@ function setPiece() {
   let r = parseInt(coords[0]);
   let c = parseInt(coords[1]);
 
+  //checks if column is full
   r = currColumns[c];
   if (r < 0) {
     return;
@@ -63,6 +64,6 @@ function setPiece() {
     currPlayer = playerRed;
   }
 
-  r -= 1;
-  currColumns[c] = r;
+  r -= 1; //updating row height for the column
+  currColumns[c] = r; //updates the Array
 }
