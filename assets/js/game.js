@@ -23,6 +23,13 @@ function setGame() {
       row.push(" ");
       //HTML, creates new div element.
       let tile = document.createElement("div");
+      //HTML, creates id set to the index postion i.e. "1-5" or "5-7".
+      tile.id = r.toString() + "-" + c.toString();
+      //HTML, creates class="tile" in new div.
+      tile.classList.add("tile");
+      //HTML, appends the above code to the board ID.
+      document.getElementById("board").append(tile);
     }
+    board.push(row);
   }
 }
