@@ -95,4 +95,6 @@ function setwinner(r, c) {
   } else {
     winner.innerText = "Yellow Wins!";
   }
+
+  gameOver = True;
 }
