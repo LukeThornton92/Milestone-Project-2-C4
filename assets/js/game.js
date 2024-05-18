@@ -86,6 +86,20 @@ function checkWinner() {
       }
     }
   }
+  //Vertical check
+  for (let c = 0; c < columns; c++) {
+    for (let r = 0; r < rows - 3; r++) {
+      if (board[r][c] != " ") {
+        if (
+          board[r][c] == board[r][c + 1] &&
+          board[r][c + 1] == board[r][c + 2] &&
+          board[r][c + 2] == board[r][c + 3]
+        ) {
+          setwinner(r, c);
+          return;
+        }
+    }
+}
 }
 
 function setwinner(r, c) {
