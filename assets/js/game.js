@@ -4,6 +4,7 @@ let currPlayer = playerRed;
 
 let gameOver = false;
 let board;
+let currColumns;
 
 const rows = 6;
 const columns = 7;
@@ -15,6 +16,7 @@ window.onload = function () {
 
 function setGame() {
   board = [];
+  currColumns = [5, 5, 5, 5, 5, 5, 5];
 
   for (let r = 0; r < rows; r++) {
     let row = [];
@@ -45,6 +47,11 @@ function setPiece() {
   //strings to numbers
   let r = parseInt(coords[0]);
   let c = parseInt(coords[1]);
+
+  r = currColumns[c];
+  if (r < 0) {
+    return;
+  }
 
   board[r][c] = currPlayer;
   let tile = this;
