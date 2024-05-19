@@ -33,11 +33,16 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 ### **Target Audiences:**
 
--
+- Users will be predominantly children.
+- Users looking to spend sometime playing a fun, simple game.
+- Users looking to challenge a friend.
+- Users looking for a fun twist on a classic game.
 
 ### **User Stories:**
 
--
+1. As a user, I want to have an entertaining experience.
+2. As a user, I want to under stand the rules of the game quickly and easily.
+3. As a user, I want the site to have big and clear buttons for navigation.
 
 ### **Site Aims:**
 
