@@ -1,13 +1,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-color: black;
 }
 
 #board {
   height: 540px;
   width: 630px;
 
-  background-color: blue;
+  background-color: transparent;
   border: 10px solid navy;
 
   margin: 0 auto;
@@ -20,7 +21,7 @@ body {
   width: 70px;
   margin: 5px;
 
-  background-color: white;
+  background-color: transparent;
   border-radius: 50%;
   border: 5px solid navy;
 }
