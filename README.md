@@ -40,9 +40,11 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 ### **User Stories:**
 
-1. As a user, I want to have an entertaining experience.
-2. As a user, I want to under stand the rules of the game quickly and easily.
-3. As a user, I want the site to have big and clear buttons for navigation.
+- As a user, I want to have an entertaining experience.
+- As a user, I want to under stand the rules of the game quickly and easily.
+- As a user, I want the site to have big and clear buttons for navigation.
+- As a user, I want the site to be accessible to all ages and abilities.
+- As a user, I want to be able to play the game on all possible devices.
 
 ### **Site Aims:**
 
