@@ -4,7 +4,7 @@
 
 Please find the live site via the following URL - https://lukethornton92.github.io/Milestone-Project-2-/C4
 
-<img src="assets/images/Responsive_OTP.png" alt="Proof of Responsiveness">
+<img src="" alt="Proof of Responsiveness">
 
 ## Table of contents:
 
@@ -48,10 +48,16 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 ### **Site Aims:**
 
--
+- To be intuitive to use, especially for a younger audience.
+- To be visually appealing, running with a theme such as Space/Ocean/Jungle.
+- To have a clear UI, to be easily
+- To be fun.
+- To be a interesting take on an tried and tested game.
 
 ### **How Will This Be Achieved:**
 
+- The site will have bold vibrant colours.
+- Large eye catching buttons with clear indication of purpose.
 -
 
 ### **Wireframes:**
