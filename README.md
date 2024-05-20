@@ -50,7 +50,7 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 - To be intuitive to use, especially for a younger audience.
 - To be visually appealing, running with a theme such as Space/Ocean/Jungle.
-- To have a clear UI, to be easily
+- To have a clear UI, to be easily navigated without any "dead ends".
 - To be fun.
 - To be a interesting take on an tried and tested game.
 
@@ -58,7 +58,10 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 - The site will have bold vibrant colours.
 - Large eye catching buttons with clear indication of purpose.
+- The site will be optimized for mobile play.
 -
+
+### **Research:**
 
 ### **Wireframes:**
 
