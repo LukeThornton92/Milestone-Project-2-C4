@@ -67,9 +67,41 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 To organize my thoughts and prevent scope creep, I created a wire frame for this project. Below are links to each of the mobile and desktop versions of the site.
 
-- Mobile Wireframes:
+- **Mobile Wireframes:**
 
-- Desktop wireframes:
+   <details><summary>Mobile Home Screen</summary>
+   <img src="">
+   </details>
+
+   <details><summary>Mobile Rules Screen</summary>
+   <img src="">
+   </details>
+
+   <details><summary>Mobile Game Screen</summary>
+   <img src="">
+   </details>
+
+   <details><summary>Mobile Winner Screen</summary>
+   <img src="">
+   </details>
+
+- **Desktop wireframes:**
+
+   <details><summary>Desktop Home Screen</summary>
+   <img src="">
+   </details>
+
+   <details><summary>Desktop Rules Screen</summary>
+   <img src="">
+   </details>
+
+   <details><summary>Desktop Game Screen</summary>
+   <img src="">
+   </details>
+
+   <details><summary>Desktop Winner Screen</summary>
+   <img src="">
+   </details>
 
 ### **Colour Scheme:**
 
