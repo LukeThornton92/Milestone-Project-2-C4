@@ -67,7 +67,7 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 To organize my thoughts and prevent scope creep, I created a wire frame for this project. Below are links to each of the mobile and desktop versions of the site.
 
-- **Mobile Wireframes:**
+#### **Mobile Wireframes:**
 
    <details><summary>Mobile Home Screen</summary>
    <img src="">
@@ -85,7 +85,7 @@ To organize my thoughts and prevent scope creep, I created a wire frame for this
    <img src="">
    </details>
 
-- **Desktop wireframes:**
+#### **Desktop wireframes:**
 
    <details><summary>Desktop Home Screen</summary>
    <img src="">
