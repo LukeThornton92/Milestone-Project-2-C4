@@ -1,14 +1,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: black;
+  background-color: white;
 }
 
 #board {
   height: 540px;
   width: 630px;
 
-  background-color: transparent;
+  background-color: blue;
   border: 10px solid navy;
 
   margin: 0 auto;
