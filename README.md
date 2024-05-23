@@ -109,7 +109,7 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 
 ### **Typography**
 
-After doing a little research into fonts, I found a useful article talking about children and the fonts they find easiest to read, seeing as this game is aimed at a younger audience I thought it best to ensure that children were the focus when it came to the typography. I chose to use googles 'Andika' after review all the recommendations, I fel this was the best middle ground for young and older players.
+After doing a little research into fonts, I found a useful [article](https://varrojoanna.com/the-easiest-fonts-for-kids-to-read/) talking about children and the fonts they find easiest to read, seeing as this game is aimed at a younger audience I thought it best to ensure that children were the focus when it came to the typography. I chose to use googles 'Andika' after review all the recommendations, I fel this was the best middle ground for young and older players.
 
 - All fonts were sourced from Google fonts, as stated in the credits.
 
