@@ -59,7 +59,7 @@ Please find the live site via the following URL - https://lukethornton92.github.
 - The site will have bold vibrant colours.
 - Large eye catching buttons with clear indication of purpose.
 - The site will be optimized for mobile play.
--
+- The site will be easy to read.
 
 ### **Research:**
 
@@ -108,6 +108,8 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 ### **Colour Scheme:**
 
 ### **Typography**
+
+After doing a little research into fonts, I found a useful article talking about children and the fonts they find easiest to read, seeing as this game is aimed at a younger audience I thought it best to ensure that children were the focus when it came to the typography. I chose to use googles 'Andika' after review all the recommendations, I fel this was the best middle ground for young and older players.
 
 - All fonts were sourced from Google fonts, as stated in the credits.
 

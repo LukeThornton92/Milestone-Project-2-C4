@@ -25,7 +25,7 @@ function setGame() {
       row.push(" ");
       //HTML, creates new div element.
       let tile = document.createElement("div");
-      //HTML, creates id set to the index postion i.e. "1-5" or "5-7".
+      //HTML, creates id set to the index position i.e. "1-5" or "5-7".
       tile.id = r.toString() + "-" + c.toString();
       //HTML, creates class="tile" in new div.
       tile.classList.add("tile");
