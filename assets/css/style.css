@@ -3,7 +3,7 @@ body {
   text-align: center;
   background-color: white;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -15,20 +15,17 @@ body {
 #board {
   height: 540px;
   width: 630px;
-
   background-color: blue;
   border: 10px solid navy;
-
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .tile {
   height: 70px;
   width: 70px;
   margin: 5px;
-
   background-color: white;
   border-radius: 50%;
   border: 5px solid navy;
@@ -43,13 +40,15 @@ body {
 }
 
 .title {
-  display: flex;
-  text-align: center;
+  margin-top: 20px;
 }
 
 /* ------------- Buttons ------------- */
 
 .button-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
   display: flex;
   flex-direction: column;
 }
