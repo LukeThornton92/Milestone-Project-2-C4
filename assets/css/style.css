@@ -20,7 +20,8 @@ body {
   border: 10px solid navy;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  justify-content: center; /* Center align the tiles horizontally */
+  align-items: center; /* Center align the tiles vertically */
 }
 
 .tile {
