@@ -1,7 +1,7 @@
 body {
   font-family: Andika, Helvetica, sans-serif;
   text-align: center;
-  background-image: url(../images/cartoon-space-background.webp);
+  background-image: url(../images/cartoon-space-background.webp); /* need to fix resolution */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -41,11 +41,20 @@ body {
   background-color: yellow;
 }
 
+/* ------------- Text ------------- */
+
 .title {
   margin-top: 20px;
   color: white;
 }
 
+#winner {
+  color: white;
+}
+
+.cPlayer {
+  color: white;
+}
 /* ------------- Buttons ------------- */
 
 .button-container {
