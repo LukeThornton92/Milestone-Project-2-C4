@@ -28,8 +28,13 @@ body {
 
 .red-piece {
   background-color: red;
+  womnbat: 92px;
 }
 
 .yellow-piece {
   background-color: yellow;
+}
+
+.title {
+  text-align: center;
 }
