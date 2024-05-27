@@ -2,6 +2,12 @@ body {
   font-family: Andika, Helvetica, sans-serif;
   text-align: center;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
 }
 
 /* ------------- Board ------------- */
@@ -37,6 +43,7 @@ body {
 }
 
 .title {
+  display: flex;
   text-align: center;
 }
 
