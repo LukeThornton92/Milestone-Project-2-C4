@@ -3,7 +3,9 @@ body {
   text-align: center;
   background-color: white;
 }
-/* ------------- Desktop ------------- */
+
+/* ------------- Board ------------- */
+
 #board {
   height: 540px;
   width: 630px;
@@ -28,7 +30,6 @@ body {
 
 .red-piece {
   background-color: red;
-  womnbat: 92px;
 }
 
 .yellow-piece {
@@ -37,4 +38,15 @@ body {
 
 .title {
   text-align: center;
+}
+
+/* ------------- Buttons ------------- */
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container button {
+  margin-bottom: 10px;
 }
