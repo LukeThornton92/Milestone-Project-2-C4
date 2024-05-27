@@ -1,7 +1,9 @@
 body {
   font-family: Andika, Helvetica, sans-serif;
   text-align: center;
-  background-color: white;
+  background-image: url(../images/cartoon-space-background.webp);
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +43,7 @@ body {
 
 .title {
   margin-top: 20px;
+  color: white;
 }
 
 /* ------------- Buttons ------------- */
