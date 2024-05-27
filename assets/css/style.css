@@ -1,6 +1,5 @@
 body {
-  font-family: Andika, Helvetica, sans-serif;
-  text-align: center;
+  font-family: "Andika", Helvetica, sans-serif;
   background-image: url(../images/cartoon-space-background.webp); /* need to fix resolution */
   background-size: cover;
   background-position: center;
@@ -42,17 +41,23 @@ body {
 }
 
 /* ------------- Text ------------- */
-
+/* Review font family not being picked up by body selector */
 .title {
+  font-family: "Andika", Helvetica, sans-serif;
   margin-top: 20px;
   color: white;
+  text-align: center;
 }
 
 #winner {
+  font-family: "Andika", Helvetica, sans-serif;
+  text-align: center;
   color: white;
 }
 
 .cPlayer {
+  font-family: "Andika", Helvetica, sans-serif;
+  text-align: center;
   color: white;
 }
 /* ------------- Buttons ------------- */

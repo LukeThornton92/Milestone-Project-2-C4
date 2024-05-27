@@ -18,15 +18,23 @@
     <script src="assets/js/game.js"></script>
   </head>
   <body>
-    <h1 class="title">Connect 4</h1>
-    <div class="button-container">
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn btn-outline-secondary">Secondary</button>
-      <button type="button" class="btn btn-outline-success">Thirdary???</button>
+    <div>
+      <h1 class="title">Connect 4</h1>
+      <div class="button-container">
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">
+          Secondary
+        </button>
+        <button type="button" class="btn btn-outline-success">
+          Thirdary???
+        </button>
+      </div>
+      <h2 id="winner"></h2>
+      <div id="board"></div>
+      <div class="cPlayer">
+        Current Player: <span id="currentPlayer"></span>
+      </div>
     </div>
-    <h2 id="winner"></h2>
-    <div id="board"></div>
-    <div class="cPlayer">Current Player: <span id="currentPlayer"></span></div>
     <footer>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
