@@ -3,7 +3,7 @@ body {
   text-align: center;
   background-color: white;
 }
-/* Desktop */
+/* ------------- Desktop ------------- */
 #board {
   height: 540px;
   width: 630px;

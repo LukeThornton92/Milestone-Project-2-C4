@@ -1,5 +1,5 @@
-let playerRed = "R";
-let playerYellow = "Y";
+let playerRed = "Red";
+let playerYellow = "Yellow";
 let currPlayer = playerRed;
 
 let gameOver = false;
@@ -9,46 +9,52 @@ let currColumns;
 const rows = 6;
 const columns = 7;
 
-//sets the game on the window loading.
+// Sets the game on the window loading.
 window.onload = function () {
   setGame();
+  displayCurrentPlayer();
 };
 
 function setGame() {
   board = [];
-  currColumns = [5, 5, 5, 5, 5, 5, 5]; //setting column height as 5 (the bottom)
+  currColumns = [5, 5, 5, 5, 5, 5, 5]; // Setting column height as 5 (the bottom)
 
   for (let r = 0; r < rows; r++) {
     let row = [];
     for (let c = 0; c < columns; c++) {
-      //JS, pushes empty string.
+      // JS, pushes empty string.
       row.push(" ");
-      //HTML, creates new div element.
+      // HTML, creates new div element.
       let tile = document.createElement("div");
-      //HTML, creates id set to the index position i.e. "1-5" or "5-7".
+      // HTML, creates id set to the index position i.e. "1-5" or "5-7".
       tile.id = r.toString() + "-" + c.toString();
-      //HTML, creates class="tile" in new div.
+      // HTML, creates class="tile" in new div.
       tile.classList.add("tile");
-      //When a click happens, returns function "setPiece"
+      // When a click happens, returns function "setPiece"
       tile.addEventListener("click", setPiece);
-      //HTML, appends the above code to the board ID.
+      // HTML, appends the above code to the board ID.
       document.getElementById("board").append(tile);
     }
     board.push(row);
   }
 }
 
+function displayCurrentPlayer() {
+  let currentP = document.getElementById("currentPlayer");
+  currentP.innerText = currPlayer;
+}
+
 function setPiece() {
   if (gameOver) {
     return;
   }
-  //below, makes the ID = "0-0" readable as an array = ["0","0"]
+  // Below, makes the ID = "0-0" readable as an array = ["0","0"]
   let coords = this.id.split("-");
-  //strings to numbers
+  // Strings to numbers
   let r = parseInt(coords[0]);
   let c = parseInt(coords[1]);
 
-  //checks if column is full
+  // Checks if column is full
   r = currColumns[c];
   if (r < 0) {
     return;
@@ -64,14 +70,15 @@ function setPiece() {
     currPlayer = playerRed;
   }
 
-  r -= 1; //updating row height for the column
-  currColumns[c] = r; //updates the Array
+  r -= 1; // Updating row height for the column
+  currColumns[c] = r; // Updates the array
 
   checkWinner();
+  displayCurrentPlayer(); // Update the current player display
 }
 
 function checkWinner() {
-  //horizontal check
+  // Horizontal check
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < columns - 3; c++) {
       if (board[r][c] != " ") {
@@ -80,13 +87,13 @@ function checkWinner() {
           board[r][c + 1] == board[r][c + 2] &&
           board[r][c + 2] == board[r][c + 3]
         ) {
-          setwinner(r, c);
+          setWinner(r, c);
           return;
         }
       }
     }
   }
-  //Vertical check
+  // Vertical check
   for (let c = 0; c < columns; c++) {
     for (let r = 0; r < rows - 3; r++) {
       if (board[r][c] != " ") {
@@ -95,13 +102,13 @@ function checkWinner() {
           board[r + 1][c] == board[r + 2][c] &&
           board[r + 2][c] == board[r + 3][c]
         ) {
-          setwinner(r, c);
+          setWinner(r, c);
           return;
         }
       }
     }
   }
-  //Anti diagonally
+  // Anti-diagonally
   for (let r = 0; r < rows - 3; r++) {
     for (let c = 0; c < columns - 3; c++) {
       if (board[r][c] != " ") {
@@ -110,13 +117,13 @@ function checkWinner() {
           board[r + 1][c + 1] == board[r + 2][c + 2] &&
           board[r + 2][c + 2] == board[r + 3][c + 3]
         ) {
-          setwinner(r, c);
+          setWinner(r, c);
           return;
         }
       }
     }
   }
-  //Diagonally
+  // Diagonally
   for (let r = 3; r < rows; r++) {
     for (let c = 0; c < columns - 3; c++) {
       if (board[r][c] != " ") {
@@ -125,7 +132,7 @@ function checkWinner() {
           board[r - 1][c + 1] == board[r - 2][c + 2] &&
           board[r - 2][c + 2] == board[r - 3][c + 3]
         ) {
-          setwinner(r, c);
+          setWinner(r, c);
           return;
         }
       }
@@ -133,7 +140,7 @@ function checkWinner() {
   }
 }
 
-function setwinner(r, c) {
+function setWinner(r, c) {
   let winner = document.getElementById("winner");
   if (board[r][c] == playerRed) {
     winner.innerText = "Red Wins!";
@@ -141,5 +148,5 @@ function setwinner(r, c) {
     winner.innerText = "Yellow Wins!";
   }
 
-  gameOver = True;
+  gameOver = true;
 }
