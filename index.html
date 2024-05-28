@@ -19,18 +19,24 @@
   </head>
   <body>
     <div class="back-panel">
-      <h1 class="title">Connect 4</h1>
+      <!------------Game-------------->
+      <h1 class="title hide">Connect 4</h1>
       <div class="button-container">
-        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary" onclick="hide()">
+          Primary
+        </button>
         <button type="button" class="btn btn-secondary">Secondary</button>
         <button type="button" class="btn btn-success">Thirdary???</button>
       </div>
       <h2 id="winner"></h2>
-      <div id="board"></div>
-      <div class="cPlayer">
+      <div id="board" class="hide"></div>
+      <div class="cPlayer hide">
         Current Player: <span id="currentPlayer"></span>
       </div>
     </div>
+    <!------------Rules-------------->
+    <h3 class="show">Rules</h3>
+    <p></p>
     <footer>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

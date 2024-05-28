@@ -92,3 +92,9 @@ body {
 .button-container button {
   margin-bottom: 10px;
 }
+
+.show {
+  display: none;
+  position: fixed;
+  margin-top: 50vh;
+}
