@@ -72,37 +72,37 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 #### **Mobile Wireframes:**
 
    <details><summary>Mobile Home Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframe-Mobile-Home.png">
    </details>
 
    <details><summary>Mobile Rules Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframe-Mobile-Rules.png">
    </details>
 
    <details><summary>Mobile Game Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframe-Mobile-Game.png">
    </details>
 
    <details><summary>Mobile Winner Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframe-Mobile-Endgame.png">
    </details>
 
 #### **Desktop wireframes:**
 
    <details><summary>Desktop Home Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframes-Desktop-Home.png">
    </details>
 
    <details><summary>Desktop Rules Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframe-Desktop-Rules.png">
    </details>
 
    <details><summary>Desktop Game Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframe-Desktop-Game.png">
    </details>
 
    <details><summary>Desktop Winner Screen</summary>
-   <img src="">
+   <img src="assets/images/C4-wireframe-Desktop-Endgame.png">
    </details>
 
 ### **Colour Scheme:**
