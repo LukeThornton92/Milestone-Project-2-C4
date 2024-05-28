@@ -2,7 +2,7 @@
 
 ## **Site Overview**
 
-Please find the live site via the following URL - https://lukethornton92.github.io/Milestone-Project-2-/C4
+Please find the live site via the following URL - https://lukethornton92.github.io/Milestone-Project-2-C4/
 
 <img src="" alt="Proof of Responsiveness">
 
