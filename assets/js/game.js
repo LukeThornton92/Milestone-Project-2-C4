@@ -151,7 +151,9 @@ function setWinner(r, c) {
   gameOver = true;
 }
 
-function hide() {
+//Track original display mode
+
+/* function hide() {
   var elements = document.getElementsByClassName("hide");
   for (var i = 0; i < elements.length; i++) {
     if (elements[i].style.display === "none") {
@@ -168,4 +170,4 @@ function hide() {
       elements[i].style.display = "block";
     }
   }
-}
+} */
