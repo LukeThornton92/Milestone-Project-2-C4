@@ -1,3 +1,5 @@
+const homeButton = document.getElementById("home");
+
 let playerRed = "Red";
 let playerYellow = "Yellow";
 let currPlayer = playerRed;
@@ -153,9 +155,9 @@ function setWinner(r, c) {
 
 //-----------hide function-----------
 
-xxx.addEventListener("click", (e) => {
-  showHide(yyy);
-  showHide(zzz);
+homeButton.addEventListener("click", (e) => {
+  showHide(home);
+  showHide(rules);
 });
 
 function showHide(element) {
