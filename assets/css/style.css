@@ -1,5 +1,4 @@
 body {
-  font-family: "Andika", Helvetica, sans-serif;
   background-image: url(../images/cartoon-space-background.webp); /* need to fix resolution */
   background-size: cover;
   background-position: center;
@@ -72,12 +71,15 @@ body {
 /* ------------- Text ------------- */
 /* Review font family not being picked up by body selector */
 
-h1 {
+.title {
+  position: fixed;
+  top: 10%;
   font-family: "Andika", Helvetica, sans-serif;
   margin-top: 20px;
+  padding: 0 0 10% 0;
   color: white;
   text-align: center;
-  size: 150%;
+  font-size: 10vw;
 }
 
 #winner {
