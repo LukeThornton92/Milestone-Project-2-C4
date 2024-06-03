@@ -1,4 +1,5 @@
 const homeButton = document.getElementById("homeButton");
+const restartButton = document.getElementById("restartButton");
 const home = document.getElementById("gameScreen");
 const rules = document.getElementById("rulesScreen");
 
@@ -171,3 +172,5 @@ function showHide(element) {
 }
 
 //----------- Restart Function -----------//
+
+restartButton.addEventListener("click", setGame());
