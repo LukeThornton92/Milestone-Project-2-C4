@@ -22,6 +22,14 @@ window.onload = function () {
 };
 
 function setGame() {
+  // Checks to see if the board has been created, if so removes.
+  const boardElement = document.getElementById("board");
+  while (boardElement.firstChild) {
+    boardElement.removeChild(boardElement.firstChild);
+    currPlayer = playerRed;
+    displayCurrentPlayer();
+  }
+
   board = [];
   currColumns = [5, 5, 5, 5, 5, 5, 5]; // Setting column height as 5 (the bottom)
 
@@ -173,4 +181,4 @@ function showHide(element) {
 
 //----------- Restart Function -----------//
 
-restartButton.addEventListener("click", setGame());
+restartButton.addEventListener("click", setGame);
