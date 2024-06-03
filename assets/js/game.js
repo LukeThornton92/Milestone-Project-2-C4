@@ -150,3 +150,16 @@ function setWinner(r, c) {
 
   gameOver = true;
 }
+
+//-----------hide function-----------
+
+xxx.addEventListener("click", (e) => {
+  showHide(yyy);
+  showHide(zzz);
+});
+
+function showHide(element) {
+  element.classList.contains("hide")
+    ? element.classList.remove("hide")
+    : element.classList.add("hide");
+}
