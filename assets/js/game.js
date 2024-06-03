@@ -166,9 +166,22 @@ function setWinner(r, c) {
 }
 //----------- Buttons -----------//
 
-//----------- Hide function -----------
+//----------- Hide function - Home -----------
 
 homeButton.addEventListener("click", (element) => {
+  showHide();
+  showHide();
+});
+
+function showHide(element) {
+  element.classList.contains("hide")
+    ? element.classList.remove("hide")
+    : element.classList.add("hide");
+}
+
+//----------- Hide function - Rules -----------
+
+rulesButton.addEventListener("click", (element) => {
   showHide(home);
   showHide(rules);
 });
@@ -176,7 +189,9 @@ homeButton.addEventListener("click", (element) => {
 function showHide(element) {
   element.classList.contains("hide")
     ? element.classList.remove("hide")
-    : element.classList.add("hide");
+    : (() => {
+        element.classList.add("hide");
+      })();
 }
 
 //----------- Restart Function -----------//
