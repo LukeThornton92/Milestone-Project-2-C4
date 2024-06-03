@@ -13,6 +13,7 @@ let currColumns;
 const rows = 6;
 const columns = 7;
 
+//----------- Game Function -----------//
 // Sets the game on the window loading.
 window.onload = function () {
   setGame();
@@ -154,8 +155,9 @@ function setWinner(r, c) {
 
   gameOver = true;
 }
+//----------- Buttons -----------//
 
-//-----------hide function-----------
+//----------- Hide function -----------
 
 homeButton.addEventListener("click", (element) => {
   showHide(home);
@@ -167,3 +169,5 @@ function showHide(element) {
     ? element.classList.remove("hide")
     : element.classList.add("hide");
 }
+
+//----------- Restart Function -----------//
