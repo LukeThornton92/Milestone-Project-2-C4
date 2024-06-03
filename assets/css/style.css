@@ -100,8 +100,6 @@ body {
   margin-bottom: 10px;
 }
 
-.show {
+.hide {
   display: none;
-  position: fixed;
-  margin-top: 50vh;
 }
