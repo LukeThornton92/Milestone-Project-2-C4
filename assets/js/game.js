@@ -150,24 +150,3 @@ function setWinner(r, c) {
 
   gameOver = true;
 }
-
-//Track original display mode
-
-/* function hide() {
-  var elements = document.getElementsByClassName("hide");
-  for (var i = 0; i < elements.length; i++) {
-    if (elements[i].style.display === "none") {
-      elements[i].style.display = "block";
-    } else {
-      elements[i].style.display = "none";
-    }
-  }
-  var elements = document.getElementsByClassName("show");
-  for (var i = 0; i < elements.length; i++) {
-    if (elements[i].style.display === "block") {
-      elements[i].style.display = "none";
-    } else {
-      elements[i].style.display = "block";
-    }
-  }
-} */
