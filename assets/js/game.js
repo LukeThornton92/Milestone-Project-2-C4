@@ -1,4 +1,6 @@
-const homeButton = document.getElementById("home");
+const homeButton = document.getElementById("homeButton");
+const home = document.getElementById("gameScreen");
+const rules = document.getElementById("rulesScreen");
 
 let playerRed = "Red";
 let playerYellow = "Yellow";
@@ -155,7 +157,7 @@ function setWinner(r, c) {
 
 //-----------hide function-----------
 
-homeButton.addEventListener("click", (e) => {
+homeButton.addEventListener("click", (element) => {
   showHide(home);
   showHide(rules);
 });
