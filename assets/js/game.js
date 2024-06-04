@@ -1,6 +1,8 @@
 const homeButton = document.getElementById("homeButton");
 const rulesButton = document.getElementById("rulesButton");
 const restartButton = document.getElementById("restartButton");
+const homePlayButton = document.getElementById("homePlayButton");
+const homeRulesButton = document.getElementById("homeRulesButton");
 const game = document.getElementById("gameScreen");
 const home = document.getElementById("homeScreen");
 const rules = document.getElementById("rulesScreen");
@@ -184,12 +186,25 @@ function showElement(element) {
 rulesButton.addEventListener("click", (e) => {
   showElement(rules);
 });
+homeRulesButton.addEventListener("click", (e) => {
+  showElement(rules);
+});
 
 function showElement(element) {
   const elements = [rules, home, game];
   elements.forEach((el) => el.classList.add("hide"));
   element.classList.remove("hide");
 }
+
+homeRulesButtonRulesButton.addEventListener("click", (e) => {
+  showElement(rules);
+});
+
+//----------- Hide function - Show Home -----------
+
+homePlayButton.addEventListener("click", (e) => {
+  showElement(home);
+});
 
 //----------- Restart Function -----------//
 
