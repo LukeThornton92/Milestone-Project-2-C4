@@ -169,19 +169,14 @@ function setWinner(r, c) {
 //----------- Buttons -----------//
 //----------- Hide function - Show Home -----------
 
-homeButton.addEventListener("click", (element) => {
-  showHide(home);
-  showHide(rules);
-  showHide(game);
+homeButton.addEventListener("click", (e) => {
+  showElement(home);
 });
 
-function showHide(element) {
-  element.classList.contains("hide")
-    ? element.classList.remove("hide")
-    : (() => {
-        element.classList.add("hide");
-        element.classList.add("hide");
-      })();
+function showElement(element) {
+  const elements = [rules, home, game];
+  elements.forEach((el) => el.classList.add("hide"));
+  element.classList.remove("hide");
 }
 
 //----------- Hide function - Show Rules -----------
