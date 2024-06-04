@@ -18,6 +18,39 @@ let currColumns;
 const rows = 6;
 const columns = 7;
 
+//----------- Buttons -----------//
+//----------- Eventlistener - Show Home -----------
+
+homeButton.addEventListener("click", (e) => {
+  showElement(home);
+});
+
+//----------- Eventlistener - Show Rules -----------
+
+rulesButton.addEventListener("click", (e) => {
+  showElement(rules);
+});
+homeRulesButton.addEventListener("click", (e) => {
+  showElement(rules);
+});
+
+//----------- Eventlistener - Show Game -----------
+
+homePlayButton.addEventListener("click", (e) => {
+  showElement(game);
+});
+
+//----------- Hide function -----------
+
+function showElement(element) {
+  const elements = [rules, home, game];
+  elements.forEach((el) => el.classList.add("hide"));
+  element.classList.remove("hide");
+}
+//----------- Restart Function -----------//
+
+restartButton.addEventListener("click", setGame);
+
 //----------- Game Function -----------//
 // Sets the game on the window loading.
 window.onload = function () {
@@ -168,35 +201,3 @@ function setWinner(r, c) {
 
   gameOver = true;
 }
-//----------- Buttons -----------//
-//----------- Eventlistener - Show Home -----------
-
-homeButton.addEventListener("click", (e) => {
-  showElement(home);
-});
-
-//----------- Eventlistener - Show Rules -----------
-
-rulesButton.addEventListener("click", (e) => {
-  showElement(rules);
-});
-homeRulesButton.addEventListener("click", (e) => {
-  showElement(rules);
-});
-
-//----------- Eventlistener - Show Game -----------
-
-homePlayButton.addEventListener("click", (e) => {
-  showElement(game);
-});
-
-//----------- Hide function -----------
-
-function showElement(element) {
-  const elements = [rules, home, game];
-  elements.forEach((el) => el.classList.add("hide"));
-  element.classList.remove("hide");
-}
-//----------- Restart Function -----------//
-
-restartButton.addEventListener("click", setGame);
