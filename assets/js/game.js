@@ -1,6 +1,8 @@
 const homeButton = document.getElementById("homeButton");
+const rulesButton = document.getElementById("rulesButton");
 const restartButton = document.getElementById("restartButton");
-const home = document.getElementById("gameScreen");
+const game = document.getElementById("gameScreen");
+const home = document.getElementById("homeScreen");
 const rules = document.getElementById("rulesScreen");
 
 let playerRed = "Red";
@@ -165,25 +167,12 @@ function setWinner(r, c) {
   gameOver = true;
 }
 //----------- Buttons -----------//
-
-//----------- Hide function - Home -----------
+//----------- Hide function - Show Home -----------
 
 homeButton.addEventListener("click", (element) => {
-  showHide();
-  showHide();
-});
-
-function showHide(element) {
-  element.classList.contains("hide")
-    ? element.classList.remove("hide")
-    : element.classList.add("hide");
-}
-
-//----------- Hide function - Rules -----------
-
-rulesButton.addEventListener("click", (element) => {
   showHide(home);
   showHide(rules);
+  showHide(game);
 });
 
 function showHide(element) {
@@ -191,7 +180,20 @@ function showHide(element) {
     ? element.classList.remove("hide")
     : (() => {
         element.classList.add("hide");
+        element.classList.add("hide");
       })();
+}
+
+//----------- Hide function - Show Rules -----------
+
+rulesButton.addEventListener("click", (e) => {
+  showElement(rules);
+});
+
+function showElement(element) {
+  const elements = [rules, home, game];
+  elements.forEach((el) => el.classList.add("hide"));
+  element.classList.remove("hide");
 }
 
 //----------- Restart Function -----------//
