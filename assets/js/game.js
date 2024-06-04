@@ -169,19 +169,13 @@ function setWinner(r, c) {
   gameOver = true;
 }
 //----------- Buttons -----------//
-//----------- Hide function - Show Home -----------
+//----------- Eventlistener - Show Home -----------
 
 homeButton.addEventListener("click", (e) => {
   showElement(home);
 });
 
-function showElement(element) {
-  const elements = [rules, home, game];
-  elements.forEach((el) => el.classList.add("hide"));
-  element.classList.remove("hide");
-}
-
-//----------- Hide function - Show Rules -----------
+//----------- Eventlistener - Show Rules -----------
 
 rulesButton.addEventListener("click", (e) => {
   showElement(rules);
@@ -190,22 +184,19 @@ homeRulesButton.addEventListener("click", (e) => {
   showElement(rules);
 });
 
+//----------- Eventlistener - Show Game -----------
+
+homePlayButton.addEventListener("click", (e) => {
+  showElement(game);
+});
+
+//----------- Hide function -----------
+
 function showElement(element) {
   const elements = [rules, home, game];
   elements.forEach((el) => el.classList.add("hide"));
   element.classList.remove("hide");
 }
-
-homeRulesButtonRulesButton.addEventListener("click", (e) => {
-  showElement(rules);
-});
-
-//----------- Hide function - Show Home -----------
-
-homePlayButton.addEventListener("click", (e) => {
-  showElement(home);
-});
-
 //----------- Restart Function -----------//
 
 restartButton.addEventListener("click", setGame);
