@@ -3,6 +3,7 @@ const rulesButton = document.getElementById("rulesButton");
 const restartButton = document.getElementById("restartButton");
 const homePlayButton = document.getElementById("homePlayButton");
 const homeRulesButton = document.getElementById("homeRulesButton");
+const switchButton = document.getElementById("switchButton");
 const game = document.getElementById("gameScreen");
 const home = document.getElementById("homeScreen");
 const rules = document.getElementById("rulesScreen");
@@ -55,6 +56,22 @@ homeRulesButton.addEventListener("click", (e) => {
 homePlayButton.addEventListener("click", (e) => {
   showElement(game);
 });
+
+//----------- Eventlistener - Swap sides -----------
+
+function sideSwap(element) {
+  if (element.classList.contains("button-container-right")) {
+    element.classList.remove("button-container-right");
+    element.classList.add("button-container-left");
+  } else {
+    element.classList.remove("button-container-left");
+    element.classList.add("button-container-right");
+  }
+}
+
+switchButton.addEventListener("click", () =>
+  sideSwap(document.querySelector(".button-container"))
+);
 
 //----------- Hide function -----------
 
