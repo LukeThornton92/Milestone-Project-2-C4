@@ -134,13 +134,17 @@ body {
   border-width: thick;
 }
 
+@media screen and (max-width: 600px) {
+  .text-hide {
+    display: none;
+  }
+}
 /* ------------- Hide ------------- */
 .hide {
   display: none;
 }
 
-/*button idea from https://getcssscan.com/css-buttons-examples */
-/* CSS 
+/*button idea from https://getcssscan.com/css-buttons-examples
 .button-28 {
   appearance: none;
   background-color: transparent;
