@@ -18,6 +18,8 @@ let currColumns;
 const rows = 6;
 const columns = 7;
 
+Swal.fire("SweetAlert2 is working!");
+
 //----------- Buttons -----------//
 //----------- Eventlistener - Show Home -----------
 
