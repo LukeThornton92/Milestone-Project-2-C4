@@ -18,7 +18,7 @@ let currColumns;
 const rows = 6;
 const columns = 7;
 
-const size = window.matchMedia("(max-width: 700px)");
+/*const size = window.matchMedia("(max-width: 700px)");
 
 function screenSize(size) {
   if (size.matches) {
@@ -32,7 +32,7 @@ screenSize(size);
 
 x.addEventListener("change", function () {
   screenSize(size);
-});
+});*/
 
 //----------- Buttons -----------//
 //----------- Eventlistener - Show Home -----------
