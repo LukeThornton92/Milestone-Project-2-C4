@@ -107,7 +107,7 @@ body {
 
 /* ------------- Buttons ------------- */
 
-.button-container {
+.button-container-right {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -115,7 +115,15 @@ body {
   flex-direction: column;
 }
 
-.button-container button {
+/*.button-container-left {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+}*/
+
+.button-container-right button {
   margin-bottom: 10px;
 }
 
