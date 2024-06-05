@@ -59,6 +59,13 @@ homePlayButton.addEventListener("click", (e) => {
 
 //----------- Eventlistener - Swap sides -----------
 
+switchButton.addEventListener("click", () =>
+  sideSwap(document.querySelector(".button-container"))
+);
+
+//----------- Functions -----------//
+//----------- swap side function -----------
+
 function sideSwap(element) {
   if (element.classList.contains("button-container-right")) {
     element.classList.remove("button-container-right");
@@ -69,10 +76,6 @@ function sideSwap(element) {
   }
 }
 
-switchButton.addEventListener("click", () =>
-  sideSwap(document.querySelector(".button-container"))
-);
-
 //----------- Hide function -----------
 
 function showElement(element) {
@@ -80,7 +83,7 @@ function showElement(element) {
   elements.forEach((el) => el.classList.add("hide"));
   element.classList.remove("hide");
 }
-//----------- Restart Function -----------//
+//----------- Restart Function -----------
 
 restartButton.addEventListener("click", setGame);
 
