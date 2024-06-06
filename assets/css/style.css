@@ -89,23 +89,13 @@ body {
   color: white;
 }
 
-.cPlayer {
-  font-family: "Andika", Helvetica, sans-serif;
-  text-align: center;
-  color: white;
-}
-
-.sub {
-  font-family: "Andika", Helvetica, sans-serif;
-  color: white;
-  text-align: center;
-}
-
+.cPlayer,
+.sub,
 .home {
+  font-family: "Andika", Helvetica, sans-serif;
   text-align: center;
   color: white;
 }
-
 /* ------------- Buttons ------------- */
 
 .button-container-right {
