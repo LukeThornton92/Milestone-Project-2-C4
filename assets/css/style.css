@@ -83,18 +83,20 @@ body {
   z-index: 10;
 }
 
+.cPlayer,
+.sub,
+.home,
 #winner {
   font-family: "Andika", Helvetica, sans-serif;
   text-align: center;
   color: white;
 }
 
-.cPlayer,
-.sub,
-.home {
+.rules {
   font-family: "Andika", Helvetica, sans-serif;
-  text-align: center;
   color: white;
+  text-align: center;
+  font: size 4vw;
 }
 /* ------------- Buttons ------------- */
 
