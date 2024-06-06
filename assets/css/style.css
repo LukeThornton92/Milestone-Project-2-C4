@@ -134,7 +134,7 @@ body {
 /*button idea from https://getcssscan.com/css-buttons-examples*/
 .button-styling {
   appearance: none;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.247);
   border: 2px solid white;
   border-radius: 15px;
   box-sizing: border-box;
@@ -192,7 +192,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .text-hide {
+  .text-hidden {
     display: none;
   }
 }
