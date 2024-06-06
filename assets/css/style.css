@@ -72,14 +72,15 @@ body {
 /* Review font family not being picked up by body selector */
 
 .title {
-  position: fixed;
-  top: 10%;
+  position: absolute;
+  top: 2%; /* Adjust this value to move the title higher or lower */
+  left: 50%;
+  transform: translateX(-50%);
   font-family: "Andika", Helvetica, sans-serif;
-  margin-top: 20px;
-  padding: 0 0 10% 0;
   color: white;
   text-align: center;
   font-size: 10vw;
+  z-index: 10;
 }
 
 #winner {
