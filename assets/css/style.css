@@ -113,7 +113,7 @@
 /*button idea from https://getcssscan.com/css-buttons-examples*/
 .button-styling {
   appearance: none;
-  background-color: rgba(179, 0, 21, 0.7);
+  background-color: rgba(179, 0, 21, 0.702);
   border: 2px solid white;
   border-radius: 15px;
   box-sizing: border-box;
@@ -143,16 +143,9 @@
   pointer-events: none;
 }
 
-.left:hover {
+.button-styling:hover {
   color: #fff;
-  background-color: rgba(224, 194, 0, 0.9);
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-}
-
-.right:hover {
-  color: #fff;
-  background-color: rgba(179, 0, 21, 0.7);
+  background-color: rgba(179, 0, 21, 0.9);
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
@@ -174,14 +167,7 @@
   align-items: center;
   border-style: solid;
   border-width: thick;
-}
-
-.left {
-  background-color: rgba(179, 0, 21, 0.7);
-}
-
-.right {
-  background-color: rgba(224, 194, 0, 0.7);
+  background-color: rgba(179, 0, 21, 0.9);
 }
 
 @media only screen and (max-width: 600px) {
