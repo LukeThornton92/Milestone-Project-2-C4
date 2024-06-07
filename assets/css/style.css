@@ -157,9 +157,16 @@
   pointer-events: none;
 }
 
-.button-styling:hover {
+.left:hover {
   color: #fff;
-  background-color: rgba(179, 0, 21, 0.9);
+  background-color: rgba(224, 194, 0, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.right:hover {
+  color: #fff;
+  background-color: rgba(179, 0, 21, 0.7);
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
@@ -169,8 +176,7 @@
   transform: translateY(0);
 }
 
-.home-screen-btn-left {
-  background-color: rgba(179, 0, 21, 0.7);
+.home-screen-btn {
   padding: 70px 20px;
   border-radius: 150px;
   width: 80%;
@@ -184,19 +190,12 @@
   border-width: thick;
 }
 
-.home-screen-btn-right {
+.left {
+  background-color: rgba(179, 0, 21, 0.7);
+}
+
+.right {
   background-color: rgba(224, 194, 0, 0.7);
-  padding: 70px 20px;
-  border-radius: 150px;
-  width: 80%;
-  color: white;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-style: solid;
-  border-width: thick;
 }
 
 @media only screen and (max-width: 600px) {
