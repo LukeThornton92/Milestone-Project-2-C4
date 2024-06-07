@@ -9,6 +9,7 @@
   margin: 0;
   position: relative;
   font-family: "Andika", Helvetica, sans-serif;
+  color: #ffff00;
 }
 
 /* ------------- Back Panel ------------- */
@@ -70,34 +71,18 @@
 }
 
 /* ------------- Text ------------- */
-/* Review font family not being picked up by body selector */
 
 .title {
-  position: absolute;
-  top: 2%; /* Adjust this value to move the title higher or lower */
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: "Andika", Helvetica, sans-serif;
-  color: white;
-  text-align: center;
   font-size: 10vw;
-  z-index: 10;
-}
-
-.cPlayer,
-.sub,
-.home,
-#winner {
-  font-family: "Andika", Helvetica, sans-serif;
-  text-align: center;
-  color: white;
 }
 
 .rules {
-  font-family: "Andika", Helvetica, sans-serif;
-  color: white;
-  text-align: center;
   font: size 4vw;
+}
+
+.andika-bold {
+  font-weight: 700;
+  font-style: normal;
 }
 /* ------------- Buttons ------------- */
 
