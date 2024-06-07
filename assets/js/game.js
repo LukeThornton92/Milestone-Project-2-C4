@@ -16,24 +16,35 @@ let gameOver = false;
 let board;
 let currColumns;
 
+let isBlocked = false;
+
 const rows = 6;
 const columns = 7;
 
-const size = window.matchMedia("(max-width: 700px)");
-
-function screenSize(size) {
-  if (size.matches) {
-    Swal.fire("SweetAlert2 is working!");
-  } else {
+function screenSize() {
+  if (window.innerWidth < 600 && !isBlocked) {
+    isBlocked = true;
+    Swal.fire({
+      position: "center",
+      icon: "warning",
+      title: "please rotate your device to play!",
+      showConfirmButton: false,
+      allowOutsideClick: false,
+    });
+  } else if (isBlocked && window.innerWidth >= 600) {
+    isBlocked = false;
+    Swal.fire({
+      position: "center",
+      icon: "info",
+      title: "screen size is correct!",
+      showConfirmButton: true,
+    });
   }
 }
 
-screenSize(size);
-
-x.addEventListener("change", function () {
-  screenSize(size);
+window.addEventListener("resize", () => {
+  screenSize();
 });
-
 //----------- Buttons -----------//
 //----------- Eventlistener - Show Home -----------
 
@@ -236,3 +247,5 @@ function setWinner(r, c) {
 
   gameOver = true;
 }
+
+screenSize();
