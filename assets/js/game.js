@@ -21,6 +21,8 @@ let isBlocked = false;
 const rows = 6;
 const columns = 7;
 
+//----------- Swal modul -----------
+
 function screenSize() {
   if (window.innerWidth < 600 && !isBlocked) {
     isBlocked = true;
@@ -35,7 +37,7 @@ function screenSize() {
     isBlocked = false;
     Swal.fire({
       position: "center",
-      icon: "info",
+      icon: "success",
       title: "screen size is correct!",
       showConfirmButton: true,
     });
