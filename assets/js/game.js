@@ -25,7 +25,7 @@ const columns = 7;
 //----------- Swal modul -----------
 
 function screenSize() {
-  if (window.innerWidth < 375 && !isBlocked) {
+  if (window.innerWidth < 484 && !isBlocked) {
     isBlocked = true;
     Swal.fire({
       position: "center",
@@ -34,7 +34,7 @@ function screenSize() {
       showConfirmButton: false,
       allowOutsideClick: false,
     });
-  } else if (isBlocked && window.innerWidth >= 375) {
+  } else if (isBlocked && window.innerWidth >= 484) {
     isBlocked = false;
     Swal.fire({
       position: "center",
