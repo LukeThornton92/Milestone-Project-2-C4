@@ -131,6 +131,10 @@ Below are some of the features currently within the site.
 
 ### **The Game**
 
+### **Winner**
+
+### **Draw**
+
 ### **Restart**
 
 ---
