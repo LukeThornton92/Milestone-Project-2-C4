@@ -148,6 +148,13 @@
   justify-content: center;
 }
 
+.lostTitle {
+  font-size: 7vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .rules {
   font-size: 1vw;
   background-color: rgba(179, 0, 21, 0.702);
@@ -266,6 +273,11 @@ li {
   .text-hidden {
     display: none;
   }
+}
+
+.lost {
+  font-size: 5vw;
+  margin-top: 30px;
 }
 /* ------------- Hide ------------- */
 .hide {
