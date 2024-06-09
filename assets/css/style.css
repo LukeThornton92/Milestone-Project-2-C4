@@ -136,6 +136,9 @@
 
 .title {
   font-size: 10vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .rules {
