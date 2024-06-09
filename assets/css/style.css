@@ -139,7 +139,7 @@
 }
 
 .rules {
-  font-size: 2vw;
+  font-size: 1vw;
   background-color: rgba(179, 0, 21, 0.702);
 }
 
@@ -156,7 +156,7 @@ li {
   font-size: 3vw;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 484px) and (max-width: 1000px) {
   .title {
     font-size: 6vw;
   }
@@ -165,6 +165,7 @@ li {
     font-size: 1.5vw;
   }
 }
+
 /* ------------- Buttons ------------- */
 
 .button-container-right {
