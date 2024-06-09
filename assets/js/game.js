@@ -116,6 +116,7 @@ restartButton.addEventListener("click", () => {
   gameOver = false;
   setGame();
   clearWinner();
+  returnTurn();
 });
 
 function clearWinner() {
@@ -123,6 +124,12 @@ function clearWinner() {
   winner.innerText = "";
 }
 
+function returnTurn() {
+  let pReturn = document.getElementById("currentPlayerText");
+  if (pReturn) {
+    pReturn.classList.remove("hide");
+  }
+}
 //----------- Game Function -----------//
 // Sets the game on the window loading.
 window.onload = function () {
