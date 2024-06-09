@@ -72,37 +72,37 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 #### **Mobile Wireframes:**
 
    <details><summary>Mobile Home Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Home.png">
+   <img src="assets/images/C4-wireframe-Mobile-Home.png" alt="">
    </details>
 
    <details><summary>Mobile Rules Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Rules.png">
+   <img src="assets/images/C4-wireframe-Mobile-Rules.png" alt="">
    </details>
 
    <details><summary>Mobile Game Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Game.png">
+   <img src="assets/images/C4-wireframe-Mobile-Game.png" alt="">
    </details>
 
    <details><summary>Mobile Winner Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Endgame.png">
+   <img src="assets/images/C4-wireframe-Mobile-Endgame.png" alt="">
    </details>
 
 #### **Desktop wireframes:**
 
    <details><summary>Desktop Home Screen</summary>
-   <img src="assets/images/C4-wireframes-Desktop-Home.png">
+   <img src="assets/images/C4-wireframes-Desktop-Home.png" alt="">
    </details>
 
    <details><summary>Desktop Rules Screen</summary>
-   <img src="assets/images/C4-wireframe-Desktop-Rules.png">
+   <img src="assets/images/C4-wireframe-Desktop-Rules.png" alt="">
    </details>
 
    <details><summary>Desktop Game Screen</summary>
-   <img src="assets/images/C4-wireframe-Desktop-Game.png">
+   <img src="assets/images/C4-wireframe-Desktop-Game.png" alt="">
    </details>
 
    <details><summary>Desktop Winner Screen</summary>
-   <img src="assets/images/C4-wireframe-Desktop-Endgame.png">
+   <img src="assets/images/C4-wireframe-Desktop-Endgame.png" alt="">
    </details>
 
 ### **Colour Scheme:**
@@ -117,9 +117,21 @@ After doing a little research into fonts, I found a useful [article](https://var
 
 ## **Features**
 
-### \*\*
-
 Below are some of the features currently within the site.
+
+### **Home Page**
+
+### **Hiding pages**
+
+### **Buttons**
+
+### **Swap sides**
+
+### **Rules**
+
+### **The Game**
+
+### **Restart**
 
 ---
 

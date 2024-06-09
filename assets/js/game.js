@@ -204,6 +204,7 @@ function setPiece() {
   currColumns[c] = r; // Updates the array
 
   checkWinner();
+  checkDrawCondition();
   displayCurrentPlayer(); // Update the current player display
 }
 
@@ -284,6 +285,36 @@ function setWinner(r, c) {
   }
 
   gameOver = true;
+}
+
+// Function to check if all tiles are full
+function areAllTilesFull() {
+  const tiles = document.querySelectorAll("#board .tile");
+
+  for (let tile of tiles) {
+    if (
+      !tile.classList.contains("red-piece") &&
+      !tile.classList.contains("yellow-piece")
+    ) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+// Function to check and set draw condition
+function checkDrawCondition() {
+  let winner = document.getElementById("winner");
+  if (areAllTilesFull()) {
+    winner.innerText = "Draw!";
+    let playerTurnRemove = document.getElementById("currentPlayerText");
+    if (playerTurnRemove) {
+      playerTurnRemove.classList.add("hide");
+    }
+
+    gameOver = true;
+  }
 }
 
 screenSize();
