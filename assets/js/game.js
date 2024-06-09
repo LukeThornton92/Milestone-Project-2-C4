@@ -271,6 +271,11 @@ function setWinner(r, c) {
     winner.innerText = "Yellow Wins!";
   }
 
+  let playerTurnRemove = document.getElementById("currentPlayerText");
+  if (playerTurnRemove) {
+    playerTurnRemove.classList.add("hide");
+  }
+
   gameOver = true;
 }
 
