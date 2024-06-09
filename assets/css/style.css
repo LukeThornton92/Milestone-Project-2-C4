@@ -42,24 +42,48 @@
 
 /* ------------- Board ------------- */
 
-#board {
-  height: 540px;
-  width: 630px;
-  background-color: blue;
-  border: 10px solid navy;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Center align the tiles horizontally */
-  align-items: center; /* Center align the tiles vertically */
+@media only screen and (min-width: 600px) {
+  #board {
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the tiles horizontally */
+    align-items: center; /* Center align the tiles vertically */
+  }
+
+  .tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+  }
 }
 
-.tile {
-  height: 70px;
-  width: 70px;
-  margin: 5px;
-  background-color: white;
-  border-radius: 50%;
-  border: 5px solid navy;
+@media only screen and (max-width: 600px) {
+  #board {
+    height: 270px;
+    width: 315px;
+    background-color: blue;
+    border: 5px solid navy;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the tiles horizontally */
+    align-items: center; /* Center align the tiles vertically */
+  }
+
+  .tile {
+    height: 35px;
+    width: 35px;
+    margin: 2.5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2.5px solid navy;
+  }
 }
 
 .red-piece {
