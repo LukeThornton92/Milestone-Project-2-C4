@@ -42,12 +42,13 @@
 
 /* ------------- Board ------------- */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 668px) {
   #board {
     height: 540px;
     width: 630px;
     background-color: blue;
     border: 10px solid navy;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center align the tiles horizontally */
@@ -64,12 +65,13 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
   #board {
     height: 270px;
     width: 315px;
     background-color: blue;
     border: 5px solid navy;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center align the tiles horizontally */
@@ -194,7 +196,7 @@
   background-color: rgba(179, 0, 21, 0.9);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
   .text-hidden {
     display: none;
   }
