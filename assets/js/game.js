@@ -112,7 +112,16 @@ function showElement(element) {
 }
 //----------- Restart Function -----------
 
-restartButton.addEventListener("click", setGame);
+restartButton.addEventListener("click", () => {
+  gameOver = false;
+  setGame();
+  clearWinner();
+});
+
+function clearWinner() {
+  let winner = document.getElementById("winner");
+  winner.innerText = "";
+}
 
 //----------- Game Function -----------//
 // Sets the game on the window loading.
