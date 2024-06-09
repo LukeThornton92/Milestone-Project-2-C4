@@ -117,6 +117,8 @@ After doing a little research into fonts, I found a useful [article](https://var
 
 ## **Features**
 
+### \*\*
+
 Below are some of the features currently within the site.
 
 ---
