@@ -1,5 +1,6 @@
 const homeButton = document.getElementById("homeButton");
 const rulesButton = document.getElementById("rulesButton");
+const playButton = document.getElementById("playButton");
 const restartButton = document.getElementById("restartButton");
 const homePlayButton = document.getElementById("homePlayButton");
 const homeRulesButton = document.getElementById("homeRulesButton");
@@ -52,6 +53,12 @@ window.addEventListener("resize", () => {
 
 homeButton.addEventListener("click", (e) => {
   showElement(home);
+});
+
+//----------- Eventlistener - Show Game -----------
+
+playButton.addEventListener("click", (e) => {
+  showElement(game);
 });
 
 //----------- Eventlistener - Show Rules -----------
