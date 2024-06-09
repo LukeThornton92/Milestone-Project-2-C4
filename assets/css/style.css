@@ -43,48 +43,104 @@
 
 /* ------------- Board ------------- */
 
-@media only screen and (min-width: 668px) {
+/* Default for larger screens */
+#board {
+  height: 540px;
+  width: 630px;
+  background-color: blue;
+  border: 10px solid navy;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the tiles horizontally */
+  align-items: center; /* Center align the tiles vertically */
+}
+
+.tile {
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid navy;
+}
+
+/* Small phones (max-width: 320px) */
+@media only screen and (max-width: 320px) {
   #board {
-    height: 540px;
-    width: 630px;
-    background-color: blue;
-    border: 10px solid navy;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center align the tiles horizontally */
-    align-items: center; /* Center align the tiles vertically */
+    height: 180px;
+    width: 210px;
+    border: 3px solid navy;
   }
 
   .tile {
-    height: 70px;
-    width: 70px;
-    margin: 5px;
-    background-color: white;
-    border-radius: 50%;
-    border: 5px solid navy;
+    height: 23px;
+    width: 23px;
+    margin: 1.5px;
+    border: 1.5px solid navy;
   }
 }
 
-@media only screen and (max-width: 667px) {
+/* Medium phones (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  #board {
+    height: 240px;
+    width: 280px;
+    border: 4px solid navy;
+  }
+
+  .tile {
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    border: 2px solid navy;
+  }
+}
+
+/* Large phones/small tablets (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  #board {
+    height: 360px;
+    width: 420px;
+    border: 6px solid navy;
+  }
+
+  .tile {
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+    border: 3px solid navy;
+  }
+}
+
+/* Tablets (min-width: 769px and max-width: 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #board {
+    height: 450px;
+    width: 525px;
+    border: 8px solid navy;
+  }
+
+  .tile {
+    height: 60px;
+    width: 60px;
+    margin: 4px;
+    border: 4px solid navy;
+  }
+}
+
+/* Existing breakpoint for max-width: 932px */
+@media only screen and (max-width: 932px) {
   #board {
     height: 270px;
     width: 315px;
-    background-color: blue;
     border: 5px solid navy;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center align the tiles horizontally */
-    align-items: center; /* Center align the tiles vertically */
   }
 
   .tile {
     height: 35px;
     width: 35px;
     margin: 2.5px;
-    background-color: white;
-    border-radius: 50%;
     border: 2.5px solid navy;
   }
 }
