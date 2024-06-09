@@ -135,6 +135,8 @@ Below are some of the features currently within the site.
 
 ### **Rules**
 
+### **Modal**
+
 ### **The Game**
 
 ### **Winner**
