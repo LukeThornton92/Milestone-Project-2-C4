@@ -65,22 +65,6 @@
   border: 5px solid navy;
 }
 
-/* Small phones (max-width: 320px) */
-@media only screen and (max-width: 320px) {
-  #board {
-    height: 180px;
-    width: 210px;
-    border: 3px solid navy;
-  }
-
-  .tile {
-    height: 23px;
-    width: 23px;
-    margin: 1.5px;
-    border: 1.5px solid navy;
-  }
-}
-
 /* Medium phones (max-width: 480px) */
 @media only screen and (max-width: 480px) {
   #board {
@@ -171,6 +155,10 @@
 li {
   list-style-type: none;
   background-color: rgba(179, 0, 21, 0.702);
+}
+
+.cPlayer {
+  font-size: 3vw;
 }
 /* ------------- Buttons ------------- */
 
