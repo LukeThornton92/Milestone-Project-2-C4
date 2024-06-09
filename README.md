@@ -2,6 +2,8 @@
 
 ## **Site Overview**
 
+Connect 4 is a classic
+
 Please find the live site via the following URL - https://lukethornton92.github.io/Milestone-Project-2-C4/
 
 <img src="" alt="Proof of Responsiveness">
@@ -107,6 +109,8 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 
 ### **Colour Scheme:**
 
+knowing this site is aimed at children I wanted to focus on a colour scheme that would be lively to capture the attention of a younger audience, while also maintaining a nice user experience for all ages. The first
+
 ### **Typography**
 
 After doing a little research into fonts, I found a useful [article](https://varrojoanna.com/the-easiest-fonts-for-kids-to-read/) talking about children and the fonts they find easiest to read, seeing as this game is aimed at a younger audience I thought it best to ensure that children were the focus when it came to the typography. I chose to use googles 'Andika' after reviewing all the recommendations, I felt this was the best middle ground for young and older players.
@@ -120,6 +124,8 @@ After doing a little research into fonts, I found a useful [article](https://var
 Below are some of the features currently within the site.
 
 ### **Home Page**
+
+### **Wallpaper and backpanel**
 
 ### **Hiding pages**
 
@@ -137,6 +143,8 @@ Below are some of the features currently within the site.
 
 ### **Restart**
 
+### **404**
+
 ---
 
 ## **Testing**
@@ -145,7 +153,7 @@ Below are some of the features currently within the site.
 
 After running the site through the CSS validator I got no errors.
 
-<img src="" alt="">
+<img src="assets/images/MSP2 CSS validation.png" alt="CSS validator proof">
 
 After running the site through the HTML validator I got no errors.
 
