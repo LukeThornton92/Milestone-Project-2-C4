@@ -43,7 +43,6 @@
 
 /* ------------- Board ------------- */
 
-/* Default for larger screens */
 #board {
   height: 540px;
   width: 630px;
@@ -65,23 +64,21 @@
   border: 5px solid navy;
 }
 
-/* Medium phones (max-width: 480px) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 320px) {
   #board {
-    height: 240px;
-    width: 280px;
-    border: 4px solid navy;
+    height: 180px;
+    width: 210px;
+    border: 3px solid navy;
   }
 
   .tile {
-    height: 30px;
-    width: 30px;
-    margin: 2px;
-    border: 2px solid navy;
+    height: 23px;
+    width: 23px;
+    margin: 1.5px;
+    border: 1.5px solid navy;
   }
 }
 
-/* Large phones/small tablets (max-width: 768px) */
 @media only screen and (max-width: 768px) {
   #board {
     height: 360px;
@@ -97,7 +94,6 @@
   }
 }
 
-/* Tablets (min-width: 769px and max-width: 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   #board {
     height: 450px;
@@ -113,7 +109,6 @@
   }
 }
 
-/* Existing breakpoint for max-width: 932px */
 @media only screen and (max-width: 932px) {
   #board {
     height: 270px;
@@ -165,7 +160,7 @@ li {
 .button-container-right {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -246,7 +241,7 @@ li {
   background-color: rgba(179, 0, 21, 0.9);
 }
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 932px) {
   .text-hidden {
     display: none;
   }

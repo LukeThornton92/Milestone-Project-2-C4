@@ -22,6 +22,7 @@ let isBlocked = false;
 const rows = 6;
 const columns = 7;
 
+// should remove webaddress on phones.
 window.addEventListener("load", function () {
   setTimeout(function () {
     // This hides the address bar:
