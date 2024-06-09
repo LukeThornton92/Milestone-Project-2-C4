@@ -1,4 +1,5 @@
 .background {
+  background-color: black;
   background-image: url(../images/Space-Background.jpg);
   background-size: cover;
   background-position: center;
@@ -93,7 +94,7 @@
 }
 
 .yellow-piece {
-  background-color: yellow;
+  background-color: #ffff00;
 }
 
 /* ------------- Text ------------- */
@@ -103,12 +104,17 @@
 }
 
 .rules {
-  font: size 4vw;
+  font-size: 2vw;
 }
 
 .andika-bold {
   font-weight: 700;
   font-style: normal;
+}
+
+li {
+  list-style-type: none;
+  background-color: rgba(179, 0, 21, 0.702);
 }
 /* ------------- Buttons ------------- */
 
