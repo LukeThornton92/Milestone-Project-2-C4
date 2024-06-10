@@ -188,6 +188,7 @@ li {
 .home-button {
   font-size: 6vw !important;
 }
+
 .button-container-right {
   position: absolute;
   top: 10px;
@@ -257,6 +258,12 @@ li {
   transform: translateY(0);
 }
 
+@media only screen and (max-height: 320px) {
+  .button-styling {
+    min-height: 30px;
+    padding: 8px 12px;
+  }
+}
 .home-screen-btn {
   padding: 70px 20px;
   border-radius: 150px;

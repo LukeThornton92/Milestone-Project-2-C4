@@ -199,6 +199,8 @@ The following is a list of future enhancements that I would like to implement gi
 
 - If I was looking to release this website to be played between friends I would like to introduce a way of playing with a friend on a different machine, so the 2 players wouldn't need to share a screen, this was something I noticed during my research.
 
+- Animation, I would like to implement 2 forms of animation, one being a drop animation that would simulate a tile piece falling, the other being the tile floating about the board following a curser or finger. I feel this would help add a sense of realism and it is one of the few physical elements to the game, which could feel lost on the digital format.
+
 ## **Deployment**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
