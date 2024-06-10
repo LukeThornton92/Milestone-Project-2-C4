@@ -185,6 +185,9 @@ li {
 
 /* ------------- Buttons ------------- */
 
+.home-button {
+  font-size: 6vw !important;
+}
 .button-container-right {
   position: absolute;
   top: 10px;

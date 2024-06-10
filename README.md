@@ -123,29 +123,29 @@ After doing a little research into fonts, I found a useful [article](https://var
 
 Below are some of the features currently within the site.
 
-### **Home Page**
+### **Home Page:**
 
-### **Wallpaper and backpanel**
+### **Wallpaper and back-panel:**
 
-### **Hiding pages**
+### **Hiding pages:**
 
-### **Buttons**
+### **Buttons:**
 
-### **Swap sides**
+### **Swap sides:**
 
-### **Rules**
+### **Rules:**
 
-### **Modal**
+### **Modal:**
 
-### **The Game**
+### **The Game:**
 
-### **Winner**
+### **Winner:**
 
-### **Draw**
+### **Draw:**
 
-### **Restart**
+### **Restart:**
 
-### **404**
+### **404:**
 
 ---
 
@@ -165,11 +165,11 @@ After running the site through the HTML validator I got 5 errors.
 
 <img src="assets/images/MSP2 HTML validation.png" alt="HTML validator proof">
 
-- 2 errors for the 2 home page buttons, the text was sat within a H2 tag. This has now been changed to a div tag with a class to give it the desired styling.
+- 2 errors for the 2 home page buttons, the text was sat within a H2 tag. This has now been changed to the text sitting within the button and a new class being made that overrides the generic buttons styling.
 
 - 2 errors for unclosed div's, throughout the build process I had been moving parts around to change how they appear, in this process I had accidentally removed some div's closing tags. This has been resolved and the site was unaffected.
 
-- 1 error for .
+- The final error for the body resolved itself once the above was fixed and retested.
 
 #### **Javascript:**
 
@@ -181,7 +181,7 @@ Using the LightHouse in my Google DevTools I was able to optimise my website for
 
 ## **Future-Enhancements**
 
-- ***
+-
 
 ## **Deployment**
 
