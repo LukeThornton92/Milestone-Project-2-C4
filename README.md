@@ -111,6 +111,8 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 
 knowing this site is aimed at children I wanted to focus on a colour scheme that would be lively to capture the attention of a younger audience, while also maintaining a nice user experience for all ages. The first
 
+<img src="assets/images/MSP2 Colour pallete.png" alt="Colour palette inspiring site">
+
 ### **Typography**
 
 After doing a little research into fonts, I found a useful [article](https://varrojoanna.com/the-easiest-fonts-for-kids-to-read/) talking about children and the fonts they find easiest to read, seeing as this game is aimed at a younger audience I thought it best to ensure that children were the focus when it came to the typography. I chose to use googles 'Andika' after reviewing all the recommendations, I felt this was the best middle ground for young and older players.
