@@ -169,13 +169,15 @@ After running the site through the CSS validator I got no errors.
 
 After running the site through the HTML validator I got 5 errors.
 
-<img src="assets/images/MSP2 HTML validation.png" alt="HTML validator proof">
+<img src="assets/images/MSP2 HTML validation.png" alt="HTML validator initial run proof">
 
 - 2 errors for the 2 home page buttons, the text was sat within a H2 tag. This has now been changed to the text sitting within the button and a new class being made that overrides the generic buttons styling.
 
 - 2 errors for unclosed div's, throughout the build process I had been moving parts around to change how they appear, in this process I had accidentally removed some div's closing tags. This has been resolved and the site was unaffected.
 
 - The final error for the body resolved itself once the above was fixed and retested.
+
+<img src="assets/images/" alt="HTML validator 0 error proof">
 
 #### **Javascript:**
 
@@ -187,7 +189,15 @@ Using the LightHouse in my Google DevTools I was able to optimise my website for
 
 ## **Future-Enhancements**
 
--
+The following is a list of future enhancements that I would like to implement given more time and/or knowledge.
+
+- A change in theme, as shown in my initial wireframes I was interested in the idea of changing the overall theme depending on the users preference. This would include the background image them being selected from a number of natural scenes and the colour of the tiles being selected from a colour wheel from the rules/settings menu.
+
+- I spent a little time trying to implement the tiles being meteors, I was really trying to avoid have a connect 4 board just sat on top of a background, I wanted the individual tiles to be themed as well.
+
+- Given more time and skill I would have liked to modify the board its self so it sat behind a themed image, so it looked like the board was part of the theme. With the current space theme if could have been made of rockets or made to look like a space station.
+
+- If I was looking to release this website to be played between friends I would like to introduce a way of playing with a friend on a different machine, so the 2 players wouldn't need to share a screen, this was something I noticed during my research.
 
 ## **Deployment**
 
