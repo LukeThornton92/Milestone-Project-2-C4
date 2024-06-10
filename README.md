@@ -107,9 +107,13 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
    <img src="assets/images/C4-wireframe-Desktop-Endgame.png" alt="">
    </details>
 
-### **Colour Scheme:**
+### **Colour Scheme and theme:**
 
-knowing this site is aimed at children I wanted to focus on a colour scheme that would be lively to capture the attention of a younger audience, while also maintaining a nice user experience for all ages. The first
+Knowing this site is aimed at children I wanted to focus on a colour scheme that would be lively enough to capture the attention of a younger audience, while also maintaining a nice user experience for all ages. The first thing I wanted to ensure was a visually stimulating and themed background, as my intention was for the theme to be easily customisable to fit a range of potential topics.
+
+My first idea was a ocean theme, but after searching for potential backgrounds online I couldn't find anything that really stuck out, so after review some other potential themes such as forests and beaches I settled on space as it is a personal interest of mine.
+
+After a little hunting and refining my search I found something [perfect](https://www.vecteezy.com/vector-art/1110375-stars-and-planets-in-outer-space), something that would pop with colour against a dark (not black) background and with a drawn aesthetic. From this image I was able to pick out my darker tones but I was still in search of 2 contrasting lighter tones that would complement the game. Connect 4 is classically played with Red tiles and Yellow tiles, so after a little while playing with the varying shades and tones I was able to find 2 that I personally liked and that worked well against the backdrop, completing my colour scheme.
 
 <img src="assets/images/MSP2 Colour pallete.png" alt="Colour palette inspiring site">
 
