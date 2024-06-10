@@ -153,11 +153,25 @@ Below are some of the features currently within the site.
 
 ### **validator testing:**
 
+#### **CSS:**
+
 After running the site through the CSS validator I got no errors.
 
 <img src="assets/images/MSP2 CSS validation.png" alt="CSS validator proof">
 
-After running the site through the HTML validator I got no errors.
+#### **HTML:**
+
+After running the site through the HTML validator I got 5 errors.
+
+<img src="assets/images/MSP2 HTML validation.png" alt="HTML validator proof">
+
+- 2 errors for the 2 home page buttons, the text was sat within a H2 tag. This has now been changed to a div tag with a class to give it the desired styling.
+
+- 2 errors for unclosed div's, throughout the build process I had been moving parts around to change how they appear, in this process I had accidentally removed some div's closing tags. This has been resolved and the site was unaffected.
+
+- 1 error for .
+
+#### **Javascript:**
 
 ### **LightHouse Testing:**
 
