@@ -24,9 +24,21 @@ Please find the live site via the following URL - https://lukethornton92.github.
    - [**_Colour Scheme_**](#colour-scheme)
    - [**_Typography_**](#typography)
 4. [**Features**](#features)
+   - [**_Home Page_**](#home-page)
+   - [**_Wallpaper And Back-panel_**](#wallpaper-and-back-panel)
+   - [**_Hiding Pages_**](#hiding-pages)
+   - [**_Buttons_**](#buttons)
+   - [**_Swap Sides_**](#swap-sides)
+   - [**_Rules_**](#rules)
+   - [**_Modal_**](#modal)
+   - [**_The Game_**](#the-game)
+   - [**_Winner_**](#winner)
+   - [**_Draw_**](#draw)
+   - [**_Restart_**](#restart)
+   - [**_404_**](#404)
 5. [**Future Enhancements**](#future-enhancements)
 6. [**Testing**](#testing)
-   - [**_Validator Testing_**](#validator testing)
+   - [**_Validator Testing_**](#validator-testing)
 7. [**Deployment**](#deployment)
 8. [**Credits**](#credits)
    - [**_Honourable Mentions_**](#honourable-mentions)
@@ -133,37 +145,37 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 #### **Mobile Wireframes:**
 
    <details><summary>Mobile Home Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Home.png" alt="">
+   <img src="assets/images/C4-wireframe-Mobile-Home.png" alt="Wireframe mobile home page">
    </details>
 
    <details><summary>Mobile Rules Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Rules.png" alt="">
+   <img src="assets/images/C4-wireframe-Mobile-Rules.png" alt="Wireframe mobile rules page">
    </details>
 
    <details><summary>Mobile Game Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Game.png" alt="">
+   <img src="assets/images/C4-wireframe-Mobile-Game.png" alt="Wireframe mobile game page">
    </details>
 
    <details><summary>Mobile Winner Screen</summary>
-   <img src="assets/images/C4-wireframe-Mobile-Endgame.png" alt="">
+   <img src="assets/images/C4-wireframe-Mobile-Endgame.png" alt="Wireframe mobile winner page">
    </details>
 
 #### **Desktop Wireframes:**
 
    <details><summary>Desktop Home Screen</summary>
-   <img src="assets/images/C4-wireframes-Desktop-Home.png" alt="">
+   <img src="assets/images/C4-wireframes-Desktop-Home.png" alt="Desktop mobile home page">
    </details>
 
    <details><summary>Desktop Rules Screen</summary>
-   <img src="assets/images/C4-wireframe-Desktop-Rules.png" alt="">
+   <img src="assets/images/C4-wireframe-Desktop-Rules.png" alt="Desktop mobile rules page">
    </details>
 
    <details><summary>Desktop Game Screen</summary>
-   <img src="assets/images/C4-wireframe-Desktop-Game.png" alt="">
+   <img src="assets/images/C4-wireframe-Desktop-Game.png" alt="Desktop mobile game page">
    </details>
 
    <details><summary>Desktop Winner Screen</summary>
-   <img src="assets/images/C4-wireframe-Desktop-Endgame.png" alt="">
+   <img src="assets/images/C4-wireframe-Desktop-Endgame.png" alt="Desktop mobile winner page">
    </details>
 
 ---
@@ -204,7 +216,7 @@ Below are some of the features currently within the site.
 
 <img src="assets/images/MSP2 home page.png" alt="">
 
-### **Wallpaper and Back-panel:**
+### **Wallpaper And Back-panel:**
 
 <img src="assets/images/MSP2 full page.png" alt="">
 
