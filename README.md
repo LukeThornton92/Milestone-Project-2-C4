@@ -8,7 +8,7 @@ The purpose of this site was to be a online version on Connect 4 aimed toward a 
 
 Please find the live site via the following URL - https://lukethornton92.github.io/Milestone-Project-2-C4/
 
-<img src="" alt="Proof of Responsiveness">
+<img src="assets/images/MSP2 Am I Responsive?.png" alt="Proof of Responsiveness">
 
 ## Table of contents:
 
