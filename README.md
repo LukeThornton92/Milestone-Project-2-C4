@@ -211,37 +211,41 @@ Below are some of the features currently within the site.
 
 ### **Buttons:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 Home Buttons.png" alt="">
+<img src="assets/images/MSP2 Home Button Hover.png" alt="">
+<img src="assets/images/MSP2 Navigation Buttons.png" alt="">
+<img src="assets/images/MSP2 Navigation Buttons Hover.png" alt="">
 
 ### **Swap sides:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 Navigation Button Left .png" alt="">
 
 ### **Rules:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 Rules.png" alt="">
 
 ### **Modal:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 Modal.png" alt="">
+<img src="assets/images/MSP2 Modal Rotate.png" alt="">
 
 ### **The Game:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 Game Screen.png" alt="">
 
 ### **Winner:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 Win screen.png" alt="">
 
 ### **Draw:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 Draw Screen.png" alt="">
 
 ### **Restart:**
 
 ### **404:**
 
-<img src="assets/images/" alt="">
+<img src="assets/images/MSP2 404 Page.png" alt="">
 
 ---
 
