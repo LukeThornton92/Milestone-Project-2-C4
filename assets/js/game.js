@@ -116,6 +116,9 @@ function showElement(element) {
 
 restartButton.addEventListener("click", () => {
   gameOver = false;
+  scoreRed = 0;
+  scoreYellow = 0;
+  updateScores();
   setGame();
   clearWinner();
   returnTurn();
@@ -222,6 +225,7 @@ function checkWinner() {
           board[r][c + 2] == board[r][c + 3]
         ) {
           clearWinningPieces(r, c);
+          return;
         }
       }
     }
@@ -236,6 +240,7 @@ function checkWinner() {
           board[r + 2][c] == board[r + 3][c]
         ) {
           clearWinningPieces(r, c);
+          return;
         }
       }
     }
@@ -250,6 +255,7 @@ function checkWinner() {
           board[r + 2][c + 2] == board[r + 3][c + 3]
         ) {
           clearWinningPieces(r, c);
+          return;
         }
       }
     }
@@ -264,6 +270,7 @@ function checkWinner() {
           board[r - 2][c + 2] == board[r - 3][c + 3]
         ) {
           clearWinningPieces(r, c);
+          return;
         }
       }
     }
@@ -386,6 +393,18 @@ function clearWinningPieces(r, c) {
             i.toString() + "-" + col.toString()
           );
           currentTile.classList.remove("red-piece", "yellow-piece");
+        }
+      }
+    });
+
+    // Update currColumns
+    winningCoordinates.forEach(([row, col]) => {
+      for (let i = row + 1; i < rows; i++) {
+        if (board[i][col] != " ") {
+          currColumns[col] = i - 1;
+          break;
+        } else if (i == rows - 1) {
+          currColumns[col] = i;
         }
       }
     });
