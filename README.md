@@ -234,38 +234,38 @@ Below are some of the features currently within the site.
 
 ### **Swap Sides:**
 
-<img src="assets/images/MSP2 Navigation Button Left .png" alt="">
+<img src="assets/images/MSP2 Navigation Button Left .png" alt="Navigation buttons on left">
 
 ### **Rules:**
 
-<img src="assets/images/MSP2 Rules.png" alt="">
+<img src="assets/images/MSP2 Rules.png" alt="Rules page">
 
 ### **Modal:**
 
-<img src="assets/images/MSP2 Modal.png" alt="">
-<img src="assets/images/MSP2 Modal Rotate.png" alt="">
+<img src="assets/images/MSP2 Modal.png" alt="Initial pop up due to screen width">
+<img src="assets/images/MSP2 Modal Rotate.png" alt="rotation causing second pop up">
 
 ### **The Game:**
 
-<img src="assets/images/MSP2 Game Screen.png" alt="">
+<img src="assets/images/MSP2 Game Screen.png" alt="Game Screen">
 
 ### **Winner:**
 
-<img src="assets/images/MSP2 Win screen.png" alt="">
+<img src="assets/images/MSP2 Win screen.png" alt="Winner screen">
 
 ### **Draw:**
 
-<img src="assets/images/MSP2 Draw Screen.png" alt="">
+<img src="assets/images/MSP2 Draw Screen.png" alt="Draw screen">
 
 ### **Restart:**
 
 ### **Tab Icon:**
 
-<img src="assets/images/MSP2 Tab Icon.png" alt="">
+<img src="assets/images/MSP2 Tab Icon.png" alt="Browser Tab Icon">
 
 ### **404:**
 
-<img src="assets/images/MSP2 404 Page.png" alt="">
+<img src="assets/images/MSP2 404 Page.png" alt="404 page">
 
 ---
 
@@ -316,7 +316,13 @@ ValidateJS:
 
 ### **LightHouse Testing:**
 
-Using the LightHouse in my Google DevTools I was able to optimise my website for Performance, Accessibility, SEA and best practices.
+Using the LightHouse in my Google DevTools I was able to optimise my website for Performance, Accessibility, SEO and best practices.
+
+<img src="assets/images/Lighthouse mobile.png" alt="Lighthouse mobile scores">
+<img src="assets/images/Desktop SEO failure.png" alt="Lighthouse Desktop SEO score">
+
+After reviewing the lighthouse results I was able to implement a meta tag in my head section with a description summarizing the content of the page.
+<img src="assets/images/Lighthouse Desktop.png" alt="Lighthouse Desktop improvement">
 
 ---
 
@@ -333,6 +339,8 @@ The following is a list of future enhancements that I would like to implement gi
 - If I was looking to release this website to be played between friends I would like to introduce a way of playing with a friend on a different machine, so the 2 players wouldn't need to share a screen, this was something I noticed during my research.
 
 - Animation, I would like to implement 2 forms of animation, one being a drop animation that would simulate a tile piece falling, the other being the tile floating about the board following a curser or finger. I feel this would help add a sense of realism and it is one of the few physical elements to the game, which could feel lost on the digital format.
+
+- Having reviewed everything during the final steps of this project I feel like the winner/draw screens could do with a bigger replay button in the center of the screen, at the moment the players would need to reselect from the navigation buttons.
 
 ## **Deployment**
 
