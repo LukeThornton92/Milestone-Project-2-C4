@@ -18,14 +18,17 @@ Please find the live site via the following URL - https://lukethornton92.github.
    - [**_User Stories_**](#user-stories)
    - [**_Site Aims_**](#site-aims)
    - [**_How Will This Be Achieved_**](#how-will-this-be-achieved)
+   - [**_Research_**](#research)
    - [**_Wireframes_**](#wireframes)
+3. [**Building Stage**](#building-stage)
    - [**_Colour Scheme_**](#colour-scheme)
    - [**_Typography_**](#typography)
-3. [**Features**](#features)
-4. [**Future Enhancements**](#future-enhancements)
-5. [**Testing**](#testing)
-6. [**Deployment**](#deployment)
-7. [**Credits**](#credits)
+4. [**Features**](#features)
+5. [**Future Enhancements**](#future-enhancements)
+6. [**Testing**](#testing)
+   - [**_Validator Testing_**](#validator testing)
+7. [**Deployment**](#deployment)
+8. [**Credits**](#credits)
    - [**_Honourable Mentions_**](#honourable-mentions)
    - [**_General Reference_**](#general-refrence)
    - [**_Content_**](#content)
@@ -33,7 +36,7 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 ---
 
-## **Planning stage**
+## **Planning Stage**
 
 ### **Target Audiences:**
 
@@ -145,7 +148,7 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
    <img src="assets/images/C4-wireframe-Mobile-Endgame.png" alt="">
    </details>
 
-#### **Desktop wireframes:**
+#### **Desktop Wireframes:**
 
    <details><summary>Desktop Home Screen</summary>
    <img src="assets/images/C4-wireframes-Desktop-Home.png" alt="">
@@ -165,13 +168,13 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 
 ---
 
-## **Building stage**
+## **Building Stage**
 
 My goal is to bring an element to a new element to connect 4 that warrants it being in a digital format, my current idea is to implement a 'Tetris' style column clear every time you score a 4 in a row. This would bring another level of tactics to the game as you would need to account for points earned and the consequence of scoring and modifying the board.
 
 I want to build this site focusing on the basics of Connect 4 first, then slowly implementing the things i've highlighted from my research. This way if I run into any issues I can fall back on a solid working game.
 
-### **Colour Scheme and theme:**
+### **Colour Scheme And Theme:**
 
 Knowing this site is aimed at children I wanted to focus on a colour scheme that would be lively enough to capture the attention of a younger audience, while also maintaining a nice user experience for all ages. The first thing I wanted to ensure was a visually stimulating and themed background, as my intention was for the theme to be easily customisable to fit a range of potential topics.
 
@@ -201,11 +204,11 @@ Below are some of the features currently within the site.
 
 <img src="assets/images/MSP2 home page.png" alt="">
 
-### **Wallpaper and back-panel:**
+### **Wallpaper and Back-panel:**
 
 <img src="assets/images/MSP2 full page.png" alt="">
 
-### **Hiding pages:**
+### **Hiding Pages:**
 
 <img src="assets/images/" alt="">
 
@@ -216,7 +219,7 @@ Below are some of the features currently within the site.
 <img src="assets/images/MSP2 Navigation Buttons.png" alt="">
 <img src="assets/images/MSP2 Navigation Buttons Hover.png" alt="">
 
-### **Swap sides:**
+### **Swap Sides:**
 
 <img src="assets/images/MSP2 Navigation Button Left .png" alt="">
 
@@ -251,7 +254,7 @@ Below are some of the features currently within the site.
 
 ## **Testing**
 
-### **validator testing:**
+### **Validator Testing:**
 
 #### **CSS:**
 
@@ -313,13 +316,13 @@ You can find the live site via the following URL - https://lukethornton92.github
 
 ## **Credits**
 
-### **Honorable mentions:**
+### **Honorable Mentions:**
 
 This project could not have happened without the support of the following people listed in no particular order:
 
 -
 
-### **General reference:**
+### **General Reference:**
 
 - The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
 - I relied upon W3schools, ChatGPT and stack overflow for general references throughout the project.
