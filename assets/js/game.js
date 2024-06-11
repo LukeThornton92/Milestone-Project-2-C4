@@ -22,16 +22,11 @@ let isBlocked = false;
 const rows = 6;
 const columns = 7;
 
-// should remove webaddress on phones.
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    // This hides the address bar:
-    window.scrollTo(0, 1);
-  }, 0);
-});
-
-//----------- Swal modul -----------
-
+/**
+ * Checks screen size, if too small brings up Modal requesting screen rotation
+ *
+ * @returns { void } This function does not return a value.
+ */
 function screenSize() {
   if (window.innerWidth < 484 && !isBlocked) {
     isBlocked = true;
@@ -56,21 +51,18 @@ function screenSize() {
 window.addEventListener("resize", () => {
   screenSize();
 });
-//----------- Buttons -----------//
-//----------- Eventlistener - Show Home -----------
 
+//Show Home
 homeButton.addEventListener("click", (e) => {
   showElement(home);
 });
 
-//----------- Eventlistener - Show Game -----------
-
+//Show Game
 playButton.addEventListener("click", (e) => {
   showElement(game);
 });
 
-//----------- Eventlistener - Show Rules -----------
-
+//Show Rules
 rulesButton.addEventListener("click", (e) => {
   showElement(rules);
 });
@@ -78,21 +70,22 @@ homeRulesButton.addEventListener("click", (e) => {
   showElement(rules);
 });
 
-//----------- Eventlistener - Show Game -----------
-
+//Show Game
 homePlayButton.addEventListener("click", (e) => {
   showElement(game);
 });
 
-//----------- Eventlistener - Swap sides -----------
-
+// Swap sides
 switchButton.addEventListener("click", () =>
   sideSwap(document.querySelector(".button-container"))
 );
 
-//----------- Functions -----------//
-//----------- swap side function -----------
-
+/**
+ * Swaps buttons from the right to the left and vice versa.
+ *
+ * @param {HTMLElement} element - Element to toggle
+ * @returns {void} This function does not return a value.
+ */
 function sideSwap(element) {
   if (element.classList.contains("button-container-right")) {
     element.classList.remove("button-container-right");
@@ -103,14 +96,15 @@ function sideSwap(element) {
   }
 }
 
-//----------- Hide function -----------
-
+/**
+ * Adds "hide" class to all pages and then removes "hide" from selected page.
+ * @param {*} element
+ */
 function showElement(element) {
   const elements = [rules, home, game];
   elements.forEach((el) => el.classList.add("hide"));
   element.classList.remove("hide");
 }
-//----------- Restart Function -----------
 
 restartButton.addEventListener("click", () => {
   gameOver = false;
@@ -119,6 +113,9 @@ restartButton.addEventListener("click", () => {
   returnTurn();
 });
 
+/**
+ * removes winner
+ */
 function clearWinner() {
   let winner = document.getElementById("winner");
   winner.innerText = "";
@@ -130,13 +127,16 @@ function returnTurn() {
     pReturn.classList.remove("hide");
   }
 }
-//----------- Game Function -----------//
+
 // Sets the game on the window loading.
 window.onload = function () {
   setGame();
   displayCurrentPlayer();
 };
 
+/**
+ * sets initial game state
+ */
 function setGame() {
   // Checks to see if the board has been created, if so removes.
   const boardElement = document.getElementById("board");
@@ -168,12 +168,18 @@ function setGame() {
     board.push(row);
   }
 }
-
+/**
+ * displays the current player text
+ */
 function displayCurrentPlayer() {
   let currentP = document.getElementById("currentPlayer");
   currentP.innerText = currPlayer;
 }
 
+/**
+ *
+ * @returns
+ */
 function setPiece() {
   if (gameOver) {
     return;

@@ -35,6 +35,7 @@ Please find the live site via the following URL - https://lukethornton92.github.
    - [**_Winner_**](#winner)
    - [**_Draw_**](#draw)
    - [**_Restart_**](#restart)
+   - [**_Tab Icon_**](#tab-icon)
    - [**_404_**](#404)
 5. [**Future Enhancements**](#future-enhancements)
 6. [**Testing**](#testing)
@@ -214,11 +215,11 @@ Below are some of the features currently within the site.
 
 ### **Home Page:**
 
-<img src="assets/images/MSP2 home page.png" alt="">
+<img src="assets/images/MSP2 home page.png" alt="image of the center of the home page">
 
 ### **Wallpaper And Back-panel:**
 
-<img src="assets/images/MSP2 full page.png" alt="">
+<img src="assets/images/MSP2 full page.png" alt="image of the entire home page">
 
 ### **Hiding Pages:**
 
@@ -226,10 +227,10 @@ Below are some of the features currently within the site.
 
 ### **Buttons:**
 
-<img src="assets/images/MSP2 Home Buttons.png" alt="">
-<img src="assets/images/MSP2 Home Button Hover.png" alt="">
-<img src="assets/images/MSP2 Navigation Buttons.png" alt="">
-<img src="assets/images/MSP2 Navigation Buttons Hover.png" alt="">
+<img src="assets/images/MSP2 Home Buttons.png" alt="image of the home page buttons">
+<img src="assets/images/MSP2 Home Button Hover.png" alt="image of the home page buttons with mouse hover">
+<img src="assets/images/MSP2 Navigation Buttons.png" alt="image of the navigation buttons">
+<img src="assets/images/MSP2 Navigation Buttons Hover.png" alt="image of the navigation  buttons with mouse hover">
 
 ### **Swap Sides:**
 
@@ -257,6 +258,10 @@ Below are some of the features currently within the site.
 <img src="assets/images/MSP2 Draw Screen.png" alt="">
 
 ### **Restart:**
+
+### **Tab Icon:**
+
+<img src="assets/images/MSP2 Tab Icon.png" alt="">
 
 ### **404:**
 
