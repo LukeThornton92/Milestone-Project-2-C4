@@ -295,6 +295,16 @@ After running the site through the HTML validator I got 5 errors.
 
 #### **Javascript:**
 
+I ran my JS code through 2 validators.
+
+JSHint:
+
+<img src="assets/images/JSHint.png" alt="JSHint validator">
+
+ValidateJS:
+
+<img src="assets/images/ValidateJS.png" alt="ValidateJS validator">
+
 ### **LightHouse Testing:**
 
 Using the LightHouse in my Google DevTools I was able to optimise my website for Performance, Accessibility, SEA and best practices.

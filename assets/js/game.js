@@ -114,13 +114,15 @@ restartButton.addEventListener("click", () => {
 });
 
 /**
- * removes winner
+ * removes winner pop up
  */
 function clearWinner() {
-  let winner = document.getElementById("winner");
+  const winner = document.getElementById("winner");
   winner.innerText = "";
 }
-
+/**
+ * hides current player
+ */
 function returnTurn() {
   let pReturn = document.getElementById("currentPlayerText");
   if (pReturn) {
@@ -147,7 +149,7 @@ function setGame() {
   }
 
   board = [];
-  currColumns = [5, 5, 5, 5, 5, 5, 5]; // Setting column height as 5 (the bottom)
+  currColumns = [5, 5, 5, 5, 5, 5, 5]; // Setting column height as 5.
 
   for (let r = 0; r < rows; r++) {
     let row = [];
@@ -172,13 +174,15 @@ function setGame() {
  * displays the current player text
  */
 function displayCurrentPlayer() {
-  let currentP = document.getElementById("currentPlayer");
+  const currentP = document.getElementById("currentPlayer");
   currentP.innerText = currPlayer;
 }
 
 /**
- *
- * @returns
+ * Places a tile piece on the game board
+ * Checks for winner, checks for draw.
+ * If no winners or draws, pushes to next player
+ * @returns {void} This function does not return a value.
  */
 function setPiece() {
   if (gameOver) {
@@ -214,6 +218,9 @@ function setPiece() {
   displayCurrentPlayer(); // Update the current player display
 }
 
+/**
+ * Checks horizontal, vertical and diagonal lines to see if a tile placement wins game
+ */
 function checkWinner() {
   // Horizontal check
   for (let r = 0; r < rows; r++) {
@@ -277,6 +284,13 @@ function checkWinner() {
   }
 }
 
+/**
+ * Updates the winner text with the current player and ends the game.
+ *
+ * @param {number} r - The row index of the winning move.
+ * @param {number} c - The column index of the winning move.
+ * @returns {void} This function does not return a value.
+ */
 function setWinner(r, c) {
   let winner = document.getElementById("winner");
   if (board[r][c] == playerRed) {
@@ -293,7 +307,10 @@ function setWinner(r, c) {
   gameOver = true;
 }
 
-// Function to check if all tiles are full
+/**
+ * checks to see if all tiles are full
+ * @returns { boolean } True if all tiles are filled, otherwise false.
+ */
 function areAllTilesFull() {
   const tiles = document.querySelectorAll("#board .tile");
 
@@ -309,7 +326,9 @@ function areAllTilesFull() {
   return true;
 }
 
-// Function to check and set draw condition
+/**
+ * Pushes "draw" text if all tiles are full and no 4 in a row, ends game.
+ */
 function checkDrawCondition() {
   let winner = document.getElementById("winner");
   if (areAllTilesFull()) {
