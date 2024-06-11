@@ -185,6 +185,10 @@ After a little hunting and refining my search I found something [perfect](https:
 
 After doing a little research into fonts, I found a useful [article](https://varrojoanna.com/the-easiest-fonts-for-kids-to-read/) talking about children and the fonts they find easiest to read, seeing as this game is aimed at a younger audience I thought it best to ensure that children were the focus when it came to the typography. I chose to use googles 'Andika' after reviewing all the recommendations, I felt this was the best middle ground for young and older players.
 
+Titles use a font weight of 700 for a bigger bolder title, while the rules section uses the standard weight. The buttons use a weight of 600 to give it a little more weight than any paragraphs.
+
+Given limited amount of text I felt Andika was good enough to cover all possible uses, if for some reason it isn't available font family will default to Helvetica and then sans-serif.
+
 - All fonts were sourced from Google fonts, as stated in the credits.
 
 ---
@@ -195,27 +199,49 @@ Below are some of the features currently within the site.
 
 ### **Home Page:**
 
+<img src="assets/images/MSP2 home page.png" alt="">
+
 ### **Wallpaper and back-panel:**
+
+<img src="assets/images/MSP2 full page.png" alt="">
 
 ### **Hiding pages:**
 
+<img src="assets/images/" alt="">
+
 ### **Buttons:**
+
+<img src="assets/images/" alt="">
 
 ### **Swap sides:**
 
+<img src="assets/images/" alt="">
+
 ### **Rules:**
+
+<img src="assets/images/" alt="">
 
 ### **Modal:**
 
+<img src="assets/images/" alt="">
+
 ### **The Game:**
+
+<img src="assets/images/" alt="">
 
 ### **Winner:**
 
+<img src="assets/images/" alt="">
+
 ### **Draw:**
+
+<img src="assets/images/" alt="">
 
 ### **Restart:**
 
 ### **404:**
+
+<img src="assets/images/" alt="">
 
 ---
 
