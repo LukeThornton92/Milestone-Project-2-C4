@@ -169,7 +169,7 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
 
 My goal is to bring an element to a new element to connect 4 that warrants it being in a digital format, my current idea is to implement a 'Tetris' style column clear every time you score a 4 in a row. This would bring another level of tactics to the game as you would need to account for points earned and the consequence of scoring and modifying the board.
 
-I want to build this site
+I want to build this site focusing on the basics of Connect 4 first, then slowly implementing the things i've highlighted from my research. This way if I run into any issues I can fall back on a solid working game.
 
 ### **Colour Scheme and theme:**
 
@@ -241,7 +241,7 @@ After running the site through the HTML validator I got 5 errors.
 
 - The final error for the body resolved itself once the above was fixed and retested.
 
-<img src="assets/images/" alt="HTML validator 0 error proof">
+<img src="assets/images/MSP2 HTML validation complete.png" alt="HTML validator 0 error proof">
 
 #### **Javascript:**
 
@@ -257,7 +257,7 @@ The following is a list of future enhancements that I would like to implement gi
 
 - A change in theme, as shown in my initial wireframes I was interested in the idea of changing the overall theme depending on the users preference. This would include the background image them being selected from a number of natural scenes and the colour of the tiles being selected from a colour wheel from the rules/settings menu.
 
-- I spent a little time trying to implement the tiles being meteors, I was really trying to avoid have a connect 4 board just sat on top of a background, I wanted the individual tiles to be themed as well.
+- I spent a long time trying to implement the tiles being meteors, I was really trying to avoid having a connect 4 board just sat on top of a background.
 
 - Given more time and skill I would have liked to modify the board its self so it sat behind a themed image, so it looked like the board was part of the theme. With the current space theme if could have been made of rockets or made to look like a space station.
 
