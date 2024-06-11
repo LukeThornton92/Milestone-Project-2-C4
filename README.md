@@ -271,6 +271,15 @@ Below are some of the features currently within the site.
 
 ## **Testing**
 
+I tested the site throughout the development phase using the following:
+
+- Apple Macbook air 13"
+- Iphone 15 Pro Max
+
+I also used Google dev-tools during development, ensuring responsiveness across all screen sizes.
+
+- All links on homepage.html and 404.html have been tested and are in working order.
+
 ### **Validator Testing:**
 
 #### **CSS:**
