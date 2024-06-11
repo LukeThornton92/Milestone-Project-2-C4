@@ -2,7 +2,9 @@
 
 ## **Site Overview**
 
-Connect 4 is a classic
+Connect 4 is a two-player abstract strategy game where the objective is to be the first to form a line of four of one's own colored discs (either vertically, horizontally, or diagonally) on a grid.
+
+The purpose of this site was to be a online version on Connect 4 aimed toward a younger audience.
 
 Please find the live site via the following URL - https://lukethornton92.github.io/Milestone-Project-2-C4/
 
@@ -65,6 +67,60 @@ Please find the live site via the following URL - https://lukethornton92.github.
 
 ### **Research:**
 
+After spending sometime researching current sites that have connect 4 I noticed a wide variety of techniques and styles.
+
+The sites I viewed were:
+
+**1. https://www.cbc.ca/kids/games/all/connect-4**
+
+This was the best example of connect 4 I found during my search, it has all the elements I wish to include in my own work, its not perfect and could be improved with better sound controls (music kicks in as soon as the page opens and is very loud) and overall position isn't ideal.
+
+The key lessons I've gathered from this site are:
+
+- Animations, both the selection of the column and the drop animation.
+- Avoid loud noises that play as soon as you start the game.
+- Player v Player and Player v computer available.
+
+---
+
+**2. https://papergames.io/en/connect4**
+
+This is a good version, I like the fact you can modify the board size (number of cols and rows) which was an idea I originally had myself. Its not as clean as as the first site but still looks clean and professional.
+
+The key lessons I've gathered from this site are:
+
+- Before game starts you can modify the board and other settings.
+- The game is originally aimed at 2 human players playing on different computers.
+- Simple UI can still look good.
+
+---
+
+**3. https://boardgames.io/en/connect4**
+
+This version only allows online player v player, which is good if someone is sat in a lobby waiting to play. doesn't allow any modification, no player v player on local play and a very basic/ugly UI.
+
+The key lessons I've gathered from this site are:
+
+- Need to have a welcome/home screen.
+- Need local play
+- Colour plays a key role, using white and grey feel very cold.
+
+---
+
+**4. https://www.mathsisfun.com/games/connect4.html**
+
+This is the simplest site I found, the actualy game sits in a small window within the site which allows the user to scrolls down which could be done by accident. Once you scroll down you can see the rules and a short paragraph about the history of the game.
+
+The key lessons I've gathered from this site are:
+
+- Game needs to be larger, as big as possible.
+- Try and keep it to one page, avoid users scrolling.
+- Colour palette plays a key role in the attraction to the game.
+
+---
+
+With these observations I was ready to start designing my wireframes.
+
 ### **Wireframes:**
 
 To organize my thoughts and prevent scope creep, I created a wire frame for this project. Below are links to each of the mobile and desktop versions of the site.
@@ -106,6 +162,14 @@ I have shown 2 different themes for the mobile desktop versions, please toggle t
    <details><summary>Desktop Winner Screen</summary>
    <img src="assets/images/C4-wireframe-Desktop-Endgame.png" alt="">
    </details>
+
+---
+
+## **Building stage**
+
+My goal is to bring an element to a new element to connect 4 that warrants it being in a digital format, my current idea is to implement a 'Tetris' style column clear every time you score a 4 in a row. This would bring another level of tactics to the game as you would need to account for points earned and the consequence of scoring and modifying the board.
+
+I want to build this site
 
 ### **Colour Scheme and theme:**
 
