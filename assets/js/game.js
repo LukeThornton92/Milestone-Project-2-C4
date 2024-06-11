@@ -12,6 +12,8 @@ const rules = document.getElementById("rulesScreen");
 let playerRed = "Red";
 let playerYellow = "Yellow";
 let currPlayer = playerRed;
+let scoreRed = 0;
+let scoreYellow = 0;
 
 let gameOver = false;
 let board;
@@ -135,6 +137,7 @@ function returnTurn() {
 window.onload = function () {
   setGame();
   displayCurrentPlayer();
+  updateScores();
 };
 
 function setGame() {
@@ -218,8 +221,7 @@ function checkWinner() {
           board[r][c + 1] == board[r][c + 2] &&
           board[r][c + 2] == board[r][c + 3]
         ) {
-          setWinner(r, c);
-          return;
+          clearWinningPieces(r, c);
         }
       }
     }
@@ -233,8 +235,7 @@ function checkWinner() {
           board[r + 1][c] == board[r + 2][c] &&
           board[r + 2][c] == board[r + 3][c]
         ) {
-          setWinner(r, c);
-          return;
+          clearWinningPieces(r, c);
         }
       }
     }
@@ -248,8 +249,7 @@ function checkWinner() {
           board[r + 1][c + 1] == board[r + 2][c + 2] &&
           board[r + 2][c + 2] == board[r + 3][c + 3]
         ) {
-          setWinner(r, c);
-          return;
+          clearWinningPieces(r, c);
         }
       }
     }
@@ -263,15 +263,14 @@ function checkWinner() {
           board[r - 1][c + 1] == board[r - 2][c + 2] &&
           board[r - 2][c + 2] == board[r - 3][c + 3]
         ) {
-          setWinner(r, c);
-          return;
+          clearWinningPieces(r, c);
         }
       }
     }
   }
 }
 
-function setWinner(r, c) {
+/* function setWinner(r, c) {
   let winner = document.getElementById("winner");
   if (board[r][c] == playerRed) {
     winner.innerText = "Red Wins!";
@@ -279,12 +278,134 @@ function setWinner(r, c) {
     winner.innerText = "Yellow Wins!";
   }
 
-  let playerTurnRemove = document.getElementById("currentPlayerText");
-  if (playerTurnRemove) {
-    playerTurnRemove.classList.add("hide");
+  gameOver = true;
+  clearWinningPieces(r, c);
+} */
+
+function clearWinningPieces(r, c) {
+  let winningColor = board[r][c];
+  let winningCoordinates = [];
+
+  // Horizontal check
+  for (
+    let col = Math.max(c - 3, 0);
+    col <= Math.min(c + 3, columns - 1);
+    col++
+  ) {
+    if (board[r][col] == winningColor) {
+      winningCoordinates.push([r, col]);
+    } else {
+      winningCoordinates = [];
+    }
+    if (winningCoordinates.length == 4) break;
   }
 
-  gameOver = true;
+  // Vertical check
+  if (winningCoordinates.length < 4) {
+    winningCoordinates = [];
+    for (
+      let row = Math.max(r - 3, 0);
+      row <= Math.min(r + 3, rows - 1);
+      row++
+    ) {
+      if (board[row][c] == winningColor) {
+        winningCoordinates.push([row, c]);
+      } else {
+        winningCoordinates = [];
+      }
+      if (winningCoordinates.length == 4) break;
+    }
+  }
+
+  // Anti-diagonal check
+  if (winningCoordinates.length < 4) {
+    winningCoordinates = [];
+    for (let offset = -3; offset <= 3; offset++) {
+      let row = r + offset;
+      let col = c + offset;
+      if (
+        row >= 0 &&
+        row < rows &&
+        col >= 0 &&
+        col < columns &&
+        board[row][col] == winningColor
+      ) {
+        winningCoordinates.push([row, col]);
+      } else {
+        winningCoordinates = [];
+      }
+      if (winningCoordinates.length == 4) break;
+    }
+  }
+
+  // Diagonal check
+  if (winningCoordinates.length < 4) {
+    winningCoordinates = [];
+    for (let offset = -3; offset <= 3; offset++) {
+      let row = r - offset;
+      let col = c + offset;
+      if (
+        row >= 0 &&
+        row < rows &&
+        col >= 0 &&
+        col < columns &&
+        board[row][col] == winningColor
+      ) {
+        winningCoordinates.push([row, col]);
+      } else {
+        winningCoordinates = [];
+      }
+      if (winningCoordinates.length == 4) break;
+    }
+  }
+
+  // Clear the winning pieces and drop the above pieces
+  if (winningCoordinates.length == 4) {
+    winningCoordinates.forEach(([row, col]) => {
+      for (let i = row; i >= 0; i--) {
+        if (i > 0) {
+          board[i][col] = board[i - 1][col];
+          let aboveTile = document.getElementById(
+            (i - 1).toString() + "-" + col.toString()
+          );
+          let currentTile = document.getElementById(
+            i.toString() + "-" + col.toString()
+          );
+          if (aboveTile.classList.contains("red-piece")) {
+            currentTile.classList.remove("yellow-piece");
+            currentTile.classList.add("red-piece");
+          } else if (aboveTile.classList.contains("yellow-piece")) {
+            currentTile.classList.remove("red-piece");
+            currentTile.classList.add("yellow-piece");
+          } else {
+            currentTile.classList.remove("red-piece", "yellow-piece");
+          }
+        } else {
+          board[i][col] = " ";
+          let currentTile = document.getElementById(
+            i.toString() + "-" + col.toString()
+          );
+          currentTile.classList.remove("red-piece", "yellow-piece");
+        }
+      }
+    });
+
+    // Update score
+    if (winningColor == playerRed) {
+      scoreRed++;
+    } else {
+      scoreYellow++;
+    }
+
+    updateScores();
+
+    gameOver = false; // Ensure the game continues
+  }
+}
+
+function updateScores() {
+  document.getElementById("scoreRed").innerText = "Red: " + scoreRed;
+  document.getElementById("scoreYellow").innerText = "Yellow: " + scoreYellow;
 }
 
 // Function to check if all tiles are full
