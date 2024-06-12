@@ -460,7 +460,7 @@ This project could not have happened without the support of the following people
 
 - All content was written by myself
 
-- Accessibility checker - WAVE - Web accessibility evaluation tool
+- Accessibility checker - [WAVE - Web accessibility evaluation tool](https://wave.webaim.org/)
 
 - Button Icons - https://fontawesome.com/
 
