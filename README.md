@@ -404,7 +404,7 @@ After reviewing the lighthouse results I was able to implement a meta tag in my 
 
 <img src="assets/images/Lighthouse Desktop.png" alt="Lighthouse Desktop improvement">
 
-## Along with all validator testing the site has been tested on numerous computers and phones as I have had friends and family review the site.
+Along with all validator testing the site has been tested on numerous computers and phones as I have had friends and family review the site.
 
 ## **Future-Enhancements**
 
@@ -446,11 +446,14 @@ You can find the live site via the following URL - https://lukethornton92.github
 
 This project could not have happened without the support of the following people listed in no particular order:
 
--
+- Jessica Goff, for putting up with me spending many evenings getting frustrated with JS.
+
+- Richard Wells, a brilliant mentor keeping my on track.
+
+- Work colleagues, they actually came up with the name have been very keen to play the game.
 
 ### **General Reference:**
 
-- The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
 - I relied upon W3schools, ChatGPT and stack overflow for general references throughout the project.
 
 ### **Content:**
@@ -459,4 +462,8 @@ This project could not have happened without the support of the following people
 
 ### **Media:**
 
--
+- Wallpaper -
+
+- Favicon -
+
+- Button Icons -
