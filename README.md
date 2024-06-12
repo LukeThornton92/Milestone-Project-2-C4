@@ -460,14 +460,16 @@ This project could not have happened without the support of the following people
 
 - All content was written by myself
 
-### **Media:**
-
-- Wallpaper - https://www.vecteezy.com/vector-art/1110375-stars-and-planets-in-outer-space
-
-- Favicon - https://www.iconarchive.com/show/free-flat-sample-icons-by-thesquid.ink/space-rocket-icon.html#google_vignette
+- Accessibility checker - WAVE - Web accessibility evaluation tool
 
 - Button Icons - https://fontawesome.com/
 
 - Fonts - https://fonts.google.com/specimen/Andika
 
 - Button CSS - https://getcssscan.com/css-buttons-examples
+
+### **Media:**
+
+- Wallpaper - https://www.vecteezy.com/vector-art/1110375-stars-and-planets-in-outer-space
+
+- Favicon - https://www.iconarchive.com/show/free-flat-sample-icons-by-thesquid.ink/space-rocket-icon.html#google_vignette
