@@ -215,13 +215,25 @@ Below are some of the features currently within the site.
 
 ### **Home Page:**
 
+- The home page is big and bold, Using classic 'connect 4' colours for the text and buttons. After doing my research I really noticed the impact of not having a initial page to welcome the user, allowing them to read the rules before being thrown straight into a game.
+
 <img src="assets/images/MSP2 home page.png" alt="image of the center of the home page">
 
 ### **Wallpaper And Back-panel:**
 
+- As mentioned in the colour scheme section above my first job was to find a background that I was really happy with, it took a while and I originally struggled to find something that would be suitable for this site. I didn't want to spend too much time focusing on a background and "lose the momentum" of coding, so at the start I actually used the space background that made my wireframe.
+
+- I liked the idea of a translucent back pack to help lift the content off the back wallpaper, I like this effect a lot as it helps give it a sense of depth.
+
 <img src="assets/images/MSP2 full page.png" alt="image of the entire home page">
 
 ### **Hiding Pages:**
+
+- After disusing numerous ideas with my mentor, he showed me a trick he likes to implement in his own code. Creating a HTML class and setting the CSS display to this class as "none".
+
+<img src="assets/images/" alt="">
+
+- This way using JS I am able to implement a simple event listener for a button click which will simple add the class to everything and then remove it from the page I wish to see.
 
 <img src="assets/images/" alt="">
 
