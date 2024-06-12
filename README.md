@@ -231,9 +231,9 @@ Below are some of the features currently within the site.
 
 - After disusing numerous ideas with my mentor, he showed me a trick he likes to implement in his own code. Creating a HTML class and setting the CSS display to this class as "none".
 
-<img src="assets/images/" alt="">
+<img src="assets/images/.hide css.png" alt="image of .hide css">
 
-- This way using JS I am able to implement a simple event listener for a button click which will simple add the class to everything and then remove it from the page I wish to see.
+- This way using JS I am able to implement a simple event listener for a button click which will simply add the class to everything in the selected and then remove it from the page I wish to see. This is good as I am able to easily adapt and change this for future use, if I wanted to add another page I can add the "const" at the top with the correct value and extend the list.
 
 <img src="assets/images/" alt="">
 
