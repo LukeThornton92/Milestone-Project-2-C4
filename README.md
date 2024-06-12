@@ -4,13 +4,13 @@
 
 Connect 4 is a two-player abstract strategy game where the objective is to be the first to form a line of four of one's own colored discs (either vertically, horizontally, or diagonally) on a grid.
 
-The purpose of this site was to be a online version on Connect 4 aimed toward a younger audience.
+The purpose of this site is to be an online version of Connect 4 aimed toward a younger audience.
 
-Please find the live site via the following URL - https://lukethornton92.github.io/Milestone-Project-2-C4/
+You can access the live site via the following URL. - https://lukethornton92.github.io/Milestone-Project-2-C4/
 
 <img src="assets/images/MSP2 Am I Responsive.png" alt="Proof of Responsiveness">
 
-## Table of contents:
+## Table of Contents:
 
 1. [**Site Overview**](#site-overview)
 2. [**Planning stage**](#planning-stage)
@@ -61,7 +61,7 @@ Please find the live site via the following URL - https://lukethornton92.github.
 ### **User Stories:**
 
 - As a user, I want to have an entertaining experience.
-- As a user, I want to under stand the rules of the game quickly and easily.
+- As a user, I want to understand the rules of the game quickly and easily.
 - As a user, I want the site to have big and clear buttons for navigation.
 - As a user, I want the site to be accessible to all ages and abilities.
 - As a user, I want to be able to play the game on all possible devices.
@@ -245,7 +245,7 @@ Below are some of the features currently within the site.
 
 ### **Buttons:**
 
-- My initial home page play and rules buttons are big and large, in the same colour red as the connect 4 tile, I am a big fan of CSS styling animations so I had a look online and found [a website](https://getcssscan.com/css-buttons-examples) with simple and professional looking hover animation.
+- My initial home page play and rules buttons are big and large, in the same colour red as the connect 4 tile, I am a big fan of CSS styling animations so I had a look online and found [a website](https://getcssscan.com/css-buttons-examples) with simple and professional looking hover animation, I was able to modify these to fit my purpose.
 
 <img src="assets/images/MSP2 Home Buttons.png" alt="image of the home page buttons">
 
@@ -462,8 +462,12 @@ This project could not have happened without the support of the following people
 
 ### **Media:**
 
-- Wallpaper -
+- Wallpaper - https://www.vecteezy.com/vector-art/1110375-stars-and-planets-in-outer-space
 
-- Favicon -
+- Favicon - https://www.iconarchive.com/show/free-flat-sample-icons-by-thesquid.ink/space-rocket-icon.html#google_vignette
 
-- Button Icons -
+- Button Icons - https://fontawesome.com/
+
+- Fonts - https://fonts.google.com/specimen/Andika
+
+- Button CSS - https://getcssscan.com/css-buttons-examples
