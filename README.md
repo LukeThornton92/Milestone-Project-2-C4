@@ -316,12 +316,13 @@ ValidateJS:
 
 ### **LightHouse Testing:**
 
-Using the LightHouse in my Google DevTools I was able to optimise my website for Performance, Accessibility, SEO and best practices.
+Using the LightHouse in my Google DevTools I was able to optimize my website for Performance, Accessibility, SEO and best practices.
 
 <img src="assets/images/Lighthouse mobile.png" alt="Lighthouse mobile scores">
 <img src="assets/images/Desktop SEO failure.png" alt="Lighthouse Desktop SEO score">
 
 After reviewing the lighthouse results I was able to implement a meta tag in my head section with a description summarizing the content of the page.
+
 <img src="assets/images/Lighthouse Desktop.png" alt="Lighthouse Desktop improvement">
 
 ---
