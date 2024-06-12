@@ -223,7 +223,7 @@ Below are some of the features currently within the site.
 
 - As mentioned in the colour scheme section above my first job was to find a background that I was really happy with, it took a while and I originally struggled to find something that would be suitable for this site. I didn't want to spend too much time focusing on a background and "lose the momentum" of coding, so at the start I actually used the space background that made my wireframe.
 
-- I liked the idea of a translucent back pack to help lift the content off the back wallpaper, I like this effect a lot as it helps give it a sense of depth.
+- I liked the idea of a translucent back pack to help lift the content off the back wallpaper, I like this effect a lot as it helps give it a sense of depth. Given how much I liked the background I feel making it see through gave both the lifting effecting while also showing off the wallpaper.
 
 <img src="assets/images/MSP2 full page.png" alt="image of the entire home page">
 
@@ -231,11 +231,11 @@ Below are some of the features currently within the site.
 
 - After disusing numerous ideas with my mentor, he showed me a trick he likes to implement in his own code. Creating a HTML class and setting the CSS display to this class as "none".
 
-<img src="assets/images/.hide css.png" alt="image of .hide css">
+<img src="assets/images/hide css.png" alt="image of .hide css">
 
 - This way using JS I am able to implement a simple event listener for a button click which will simply add the class to everything in the selected and then remove it from the page I wish to see. This is good as I am able to easily adapt and change this for future use, if I wanted to add another page I can add the "const" at the top with the correct value and extend the list.
 
-<img src="assets/images/" alt="">
+<img src="assets/images/hide JS.png" alt="">
 
 ### **Buttons:**
 
@@ -342,6 +342,8 @@ After reviewing the lighthouse results I was able to implement a meta tag in my 
 ## **Future-Enhancements**
 
 The following is a list of future enhancements that I would like to implement given more time and/or knowledge.
+
+- The Tetris element, starting out my main goal was to get this site fully functioning and bug free which I am happy I achieved, but to really make this project stand out and to warrant it being online I wanted to bring a new idea to a classic. Due to numerous issues that I simply do not have the skills to resolve in the time frame I have, I had to scrap.
 
 - A change in theme, as shown in my initial wireframes I was interested in the idea of changing the overall theme depending on the users preference. This would include the background image them being selected from a number of natural scenes and the colour of the tiles being selected from a colour wheel from the rules/settings menu.
 
