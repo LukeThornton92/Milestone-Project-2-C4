@@ -93,7 +93,7 @@ This was the best example of connect 4 I found during my search, it has all the 
 
 The key lessons I've gathered from this site are:
 
-- Animations, both the selection of the column and the drop animation.
+- Animations, both the selection of the column and the drop animation add a sense of emersion.
 - Avoid loud noises that play as soon as you start the game.
 - Player v Player and Player v computer available.
 
@@ -233,49 +233,103 @@ Below are some of the features currently within the site.
 
 <img src="assets/images/hide css.png" alt="image of .hide css">
 
-- This way using JS I am able to implement a simple event listener for a button click which will simply add the class to everything in the selected and then remove it from the page I wish to see. This is good as I am able to easily adapt and change this for future use, if I wanted to add another page I can add the "const" at the top with the correct value and extend the list.
+- Using JS I am able to implement a simple event listener for a button click which will simply add the class to everything in the selected and then remove it from the page I wish to see. This is good as I am able to easily adapt and change this for future use, if I wanted to add another page I can add the "const" at the top with the correct value and extend the list.
 
 <img src="assets/images/hide JS.png" alt="">
 
+- With the site being a SPA (single page application) this allows for a few things to happen which benefit the site greatly.
+
+  \*First the page and all JS loads in its entirety all before you click into the game, so if for any reason you had to wait for the JS in the background to load you wouldn't notice it as you are greeted by the home page.
+
+  \*Secondly if you are playing the game and want to review the rules, you can click on rules, then click back and will return back to the same game state almost like a save. You never have to remember a games current state as its never removed, the user simply cannot see it.
+
 ### **Buttons:**
 
+- My initial home page play and rules buttons are big and large, in the same colour red as the connect 4 tile, I am a big fan of CSS styling animations so I had a look online and found [a website](https://getcssscan.com/css-buttons-examples) with simple and professional looking hover animation.
+
 <img src="assets/images/MSP2 Home Buttons.png" alt="image of the home page buttons">
+
+- The hover animation lifts the button up slightly, gives it a slight shadow and reduces the transparency. Again I feel this helps with the sense of depth on the page.
+
 <img src="assets/images/MSP2 Home Button Hover.png" alt="image of the home page buttons with mouse hover">
+
+- My navigation buttons are the same for consistency and contain a small icon.
+
 <img src="assets/images/MSP2 Navigation Buttons.png" alt="image of the navigation buttons">
+
+- When viewed on a small screen, these buttons shrink down to a more square shape and the inner text is hidden.
+
 <img src="assets/images/MSP2 Navigation Buttons Hover.png" alt="image of the navigation  buttons with mouse hover">
 
 ### **Swap Sides:**
+
+- Given the game is focused towards mobile users, I gave a lot of thought to the physical side of playing the game, if a user is left handed it would potential be uncomfortable if all the buttons are on the right hand side. The bottom button in the navigation buttons allows for buttons to swap sides. The image below shows the buttons on the left hand side of the screen.
 
 <img src="assets/images/MSP2 Navigation Button Left .png" alt="Navigation buttons on left">
 
 ### **Rules:**
 
+- With the game aimed at a younger audience there is a change someone has not played the game before, so I give a short explanation about the game.
+
+- I implemented the red background to help contrast with the yellow font.
+
 <img src="assets/images/MSP2 Rules.png" alt="Rules page">
 
 ### **Modal:**
 
+- The modal is something I am very pleased with, due to the physical limitations of the game board on small screens this game has to be played landscape at certain screen widths. Using a [SWAL](https://sweetalert2.github.io/), a JS library I was able to get a professional looking modal.
+
 <img src="assets/images/MSP2 Modal.png" alt="Initial pop up due to screen width">
+
+- Using Javascript I am able to review the screen size, if the site is loaded up in a screen size I know wont support the site the user isn't allowed to access until the device is rotated. I am more than confident I was able to get the site working on the smallest possible mobile device width so it wont leave any users unable to play the game.
+
 <img src="assets/images/MSP2 Modal Rotate.png" alt="rotation causing second pop up">
 
+- Once the user has rotated the screen they get a big 'OK' button which will then allow them to play the game.
+
 ### **The Game:**
+
+- The game in all honesty wasn't 100% what I wanted, my original idea was to have tiles be erased after scoring a '4 in a row' but I ran into numerous bugs and issues which were getting far too time consuming, if you wish to see any of these they will be visibly in my repository as I made a branch off my main to tackle this aspect of the game. Luckily planning to build Connect 4 first and then work in the column erasing element paid off.
+
+- The game board is sat into the background, contrasting with the buttons and titles on the home page and rules page. I used a colour match with the background to help set this in and a border colour that is taken from the darkest part on the background to cement the board.
+
+- A big bold "Current Player" title sits above the board, this way when the game is being playing between friends on a phone it can be passed back and forth and the player order is obvious.
+
+- The game tiles marry up with the chosen colours on my palette.
 
 <img src="assets/images/MSP2 Game Screen.png" alt="Game Screen">
 
 ### **Winner:**
 
+- Once a player wins, the "Current player" display is hidden and the winner is shown, this text is much larger.
+
 <img src="assets/images/MSP2 Win screen.png" alt="Winner screen">
 
 ### **Draw:**
+
+- In the unlikely event of a draw (trust me its very difficult it took my multiple attempts to get this screen shot) the game will show act similarly to a win, with "Draw!" replacing the current player.
 
 <img src="assets/images/MSP2 Draw Screen.png" alt="Draw screen">
 
 ### **Restart:**
 
+- Due to how the game was made and all the modifications I made thereafter, the restart button does a few things in sequence, it:
+  1.  Resets the gameOver variable back to false
+  2.  Resets the game, which in turn had to be modified to see if a game board already existed, if it does it removes and recreates.
+  3.  Resets the winner.
+  4.  Resets the first turn back to red.
+
+Although its a simply function I was rather proud of it, as it was modified numerous times as the site evolved.
+
 ### **Tab Icon:**
+
+- I found a cool tab [favicon!](https://www.iconarchive.com/show/free-flat-sample-icons-by-thesquid.ink/space-rocket-icon.html#google_vignette) strangely enough this feels like the most "developery" thing I have done so far.
 
 <img src="assets/images/MSP2 Tab Icon.png" alt="Browser Tab Icon">
 
 ### **404:**
+
+- A simple 404 if something goes wrong, which links
 
 <img src="assets/images/MSP2 404 Page.png" alt="404 page">
 
@@ -320,24 +374,37 @@ I ran my JS code through 2 validators.
 
 JSHint:
 
+- Running my JS through JSHint I got 2 undefined variables, this was not a concern as "SWAL" is an external library that the validator could not see.
+
 <img src="assets/images/JSHint.png" alt="JSHint validator">
 
-ValidateJS:
+ValidateJavaScript:
+
+- ValidateJs showed a lot more issues, mainly that I had no JSDoc comment on any of my functions, I had been using a commenting habit I had developed during the last project, after seeing this I went through all my functions and documented them all properly.
+
+- Line length was also an issue for a couple comments, using the validator I identified the lines effected and reduce comment length.
 
 <img src="assets/images/ValidateJS.png" alt="ValidateJS validator">
+
+- I have one remaining error which at this moment I can't resolve, it doesn't break the code so at this moment in time I have had to leave, this will be reviewed later to ensure this isn't a repeat offender in later works.
+
+<img src="assets/images/this error.png" alt="this error">
 
 ### **LightHouse Testing:**
 
 Using the LightHouse in my Google DevTools I was able to optimize my website for Performance, Accessibility, SEO and best practices.
 
 <img src="assets/images/Lighthouse mobile.png" alt="Lighthouse mobile scores">
+
+- I was happy with my score on mobile, next came desktop which showed I wasn't optimized on "SEO"
+
 <img src="assets/images/Desktop SEO failure.png" alt="Lighthouse Desktop SEO score">
 
 After reviewing the lighthouse results I was able to implement a meta tag in my head section with a description summarizing the content of the page.
 
 <img src="assets/images/Lighthouse Desktop.png" alt="Lighthouse Desktop improvement">
 
----
+## Along with all validator testing the site has been tested on numerous computers and phones as I have had friends and family review the site.
 
 ## **Future-Enhancements**
 

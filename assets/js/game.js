@@ -219,7 +219,7 @@ function setPiece() {
 }
 
 /**
- * Checks horizontal, vertical and diagonal lines to see if a tile placement wins game
+ *  Checks up, down & diagonal lines to see if a tile placement wins game
  */
 function checkWinner() {
   // Horizontal check
